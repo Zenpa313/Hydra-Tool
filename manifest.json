@@ -1112,6 +1112,258 @@
                 "shuffle list",
                 "random order"
             ]
+        },
+        {
+            "id": "merge-pdf",
+            "name": "Merge PDF",
+            "category": "PDF Tools",
+            "description": "Combine multiple PDF files into one single document in your browser.",
+            "keywords": [
+                "merge-pdf",
+                "merge pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "split-pdf",
+            "name": "Split PDF",
+            "category": "PDF Tools",
+            "description": "Extract selected page ranges or separate individual pages from your PDF.",
+            "keywords": [
+                "split-pdf",
+                "split pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "compress-pdf",
+            "name": "Compress PDF",
+            "category": "PDF Tools",
+            "description": "Reduce PDF document file size with client-side structural optimization.",
+            "keywords": [
+                "compress-pdf",
+                "compress pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "pdf-to-jpg",
+            "name": "PDF to JPG",
+            "category": "PDF Tools",
+            "description": "Convert PDF document pages into high-resolution JPG images.",
+            "keywords": [
+                "pdf-to-jpg",
+                "pdf to jpg",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "pdf-to-pdfa",
+            "name": "PDF to PDF/A",
+            "category": "PDF Tools",
+            "description": "Convert and standardize PDF documents for archival and legal compliance.",
+            "keywords": [
+                "pdf-to-pdfa",
+                "pdf to pdf/a",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "redact-pdf",
+            "name": "Redact PDF",
+            "category": "PDF Tools",
+            "description": "Sanitize metadata and redact sensitive information from PDF files.",
+            "keywords": [
+                "redact-pdf",
+                "redact pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "crop-pdf",
+            "name": "Crop PDF",
+            "category": "PDF Tools",
+            "description": "Trim margins and adjust visible canvas dimensions across PDF pages.",
+            "keywords": [
+                "crop-pdf",
+                "crop pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "compare-pdf",
+            "name": "Compare PDF",
+            "category": "PDF Tools",
+            "description": "Inspect and compare revisions between two PDF documents side by side.",
+            "keywords": [
+                "compare-pdf",
+                "compare pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "html-to-pdf",
+            "name": "HTML to PDF",
+            "category": "PDF Tools",
+            "description": "Render HTML formatting, web code, and tables directly into a clean PDF.",
+            "keywords": [
+                "html-to-pdf",
+                "html to pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "sign-pdf",
+            "name": "Sign PDF",
+            "category": "PDF Tools",
+            "description": "Add digital signatures and visual stamps to your PDF documents safely.",
+            "keywords": [
+                "sign-pdf",
+                "sign pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "ocr-pdf",
+            "name": "OCR PDF",
+            "category": "PDF Tools",
+            "description": "Extract searchable text from scanned image-based PDF files.",
+            "keywords": [
+                "ocr-pdf",
+                "ocr pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "repair-pdf",
+            "name": "Repair PDF",
+            "category": "PDF Tools",
+            "description": "Rebuild corrupt PDF file cross-reference tables and recover pages.",
+            "keywords": [
+                "repair-pdf",
+                "repair pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "add-page-numbers",
+            "name": "Add Page Numbers",
+            "category": "PDF Tools",
+            "description": "Stamp customizable page numbering headers or footers across your PDF.",
+            "keywords": [
+                "add-page-numbers",
+                "add page numbers",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "edit-pdf",
+            "name": "Edit PDF",
+            "category": "PDF Tools",
+            "description": "Add annotations, text highlights, and custom shapes into existing PDFs.",
+            "keywords": [
+                "edit-pdf",
+                "edit pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "remove-pages",
+            "name": "Remove Pages",
+            "category": "PDF Tools",
+            "description": "Delete unwanted or blank pages from your PDF document instantly.",
+            "keywords": [
+                "remove-pages",
+                "remove pages",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "add-watermark",
+            "name": "Add Watermark",
+            "category": "PDF Tools",
+            "description": "Stamp text or image watermarks onto PDF pages with custom transparency.",
+            "keywords": [
+                "add-watermark",
+                "add watermark",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "organize-pdf",
+            "name": "Organize PDF",
+            "category": "PDF Tools",
+            "description": "Reorder, rotate, and sort pages inside your PDF document.",
+            "keywords": [
+                "organize-pdf",
+                "organize pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "unlock-pdf",
+            "name": "Unlock PDF",
+            "category": "PDF Tools",
+            "description": "Remove passwords and print restrictions from PDF documents you own.",
+            "keywords": [
+                "unlock-pdf",
+                "unlock pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "protect-pdf",
+            "name": "Protect PDF",
+            "category": "PDF Tools",
+            "description": "Encrypt your PDF with a secure password and restrict unauthorized access.",
+            "keywords": [
+                "protect-pdf",
+                "protect pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "rotate-pdf",
+            "name": "Rotate PDF",
+            "category": "PDF Tools",
+            "description": "Rotate PDF pages clockwise or upside-down 90, 180, or 270 degrees.",
+            "keywords": [
+                "rotate-pdf",
+                "rotate pdf",
+                "pdf tool",
+                "free pdf"
+            ]
+        },
+        {
+            "id": "jpg-to-pdf",
+            "name": "JPG to PDF",
+            "category": "PDF Tools",
+            "description": "Convert JPG, PNG, and WEBP images into a clean single PDF document.",
+            "keywords": [
+                "jpg-to-pdf",
+                "jpg to pdf",
+                "pdf tool",
+                "free pdf"
+            ]
         }
     ]
 }
