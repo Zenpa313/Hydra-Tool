@@ -1,19 +1,12 @@
+"use client";
+import { useState } from "react";
 export default function Base64Decoder() {
+    
+    const [input, setInput] = useState("");
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-
-            <h2 className="text-2xl font-bold mb-4">Base64 Decoder</h2>
-
-            <p className="text-gray-600 mb-6">Your efficient tool for base64 decoder.</p>
-
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-
-                [Interactive Base64 Decoder Interface]
-
-            </div>
-
+        <div className="space-y-4">
+            <input className="w-full p-3 border rounded-xl" onChange={e => setInput(e.target.value)} placeholder="Base64 to decode" />
+            <div className="p-4 bg-gray-100 rounded-lg break-all">{try{atob(input)}catch{ "Invalid Base64" }}</div>
         </div>
-
     );
-
 }

@@ -1,19 +1,15 @@
-export default function JSONMinifier() {
+"use client";
+import { useState } from "react";
+export default function JSONminifier() {
+    
+    const [input, setInput] = useState("");
+    const minify = () => { try { setOutput(JSON.stringify(JSON.parse(input))); } catch (e) { setOutput("Invalid JSON"); } };
+    const [output, setOutput] = useState("");
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-
-            <h2 className="text-2xl font-bold mb-4">JSON Minifier</h2>
-
-            <p className="text-gray-600 mb-6">Your efficient tool for json minifier.</p>
-
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-
-                [Interactive JSON Minifier Interface]
-
-            </div>
-
+        <div className="space-y-4">
+            <textarea className="w-full h-40 p-3 border rounded-xl font-mono text-xs" onChange={e => setInput(e.target.value)} placeholder="Paste JSON here..." />
+            <button onClick={minify} className="px-6 py-2 bg-blue-600 text-white rounded-lg">Minify JSON</button>
+            <pre className="p-4 bg-gray-100 rounded-lg overflow-x-auto text-xs">{output}</pre>
         </div>
-
     );
-
 }
