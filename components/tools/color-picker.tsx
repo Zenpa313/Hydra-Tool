@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-
 export default function ColorPicker() {
     const [color, setColor] = useState("#3b82f6");
     return (

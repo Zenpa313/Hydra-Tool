@@ -1,19 +1,12 @@
-export default function QRCodeGenerator() {
+"use client";
+import { useState } from "react";
+// Simple browser-only QR implementation stub - requires library or API
+export default function QrGen() {
+    const [val, setVal] = useState("https://hydratools.com");
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-
-            <h2 className="text-2xl font-bold mb-4">QR Code Generator</h2>
-
-            <p className="text-gray-600 mb-6">Your efficient tool for qr code generator.</p>
-
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-
-                [Interactive QR Code Generator Interface]
-
-            </div>
-
+        <div className="space-y-4">
+            <input className="w-full p-2 border rounded" onChange={e => setVal(e.target.value)} />
+            <img src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(val)}`} alt="QR" />
         </div>
-
     );
-
 }
