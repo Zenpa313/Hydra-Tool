@@ -4,6 +4,7 @@ import ToolLayout from '@/components/ui/Layout';
 
 export default function Home() {
     const categories = [
+        { key: "Real Estate", anchor: "real-estate", title: "Real Estate, Property & Rental Calculators", count: 3 },
         { key: "Construction", anchor: "construction", title: "Construction, Building & Material Calculators", count: 7 },
         { key: "Data & Conversion", anchor: "data", title: "Data Parsing, CSV & Excel Converters", count: 9 },
         { key: "Developer", anchor: "developer", title: "Developer, Code & Cryptography Tools", count: 40 },
@@ -17,6 +18,7 @@ export default function Home() {
     ];
 
     const popularIds = [
+        "property-tax-calculator", "rental-yield-calculator", "square-footage-calculator",
         "brick-calculator", "gravel-calculator", "hvac-calculator",
         "csv-to-excel", "excel-to-json", "data-visualizer",
         "password-generator", "case-converter", "base64", "json-formatter",

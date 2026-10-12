@@ -2406,6 +2406,45 @@
                 "builder",
                 "materials"
             ]
+        },
+        {
+            "id": "property-tax-calculator",
+            "name": "Property Tax Calculator",
+            "category": "Real Estate",
+            "description": "Estimate your annual and monthly property taxes based on home valuation and local millage rates.",
+            "keywords": [
+                "property-tax-calculator",
+                "property tax calculator",
+                "real estate",
+                "property",
+                "mortgage"
+            ]
+        },
+        {
+            "id": "rental-yield-calculator",
+            "name": "Rental Yield Calculator",
+            "category": "Real Estate",
+            "description": "Calculate gross and net annual rental yield percentages on residential and commercial real estate.",
+            "keywords": [
+                "rental-yield-calculator",
+                "rental yield calculator",
+                "real estate",
+                "property",
+                "mortgage"
+            ]
+        },
+        {
+            "id": "square-footage-calculator",
+            "name": "Square Footage Calculator",
+            "category": "Real Estate",
+            "description": "Calculate total room floor space in square feet and meters with valuation estimation.",
+            "keywords": [
+                "square-footage-calculator",
+                "square footage calculator",
+                "real estate",
+                "property",
+                "mortgage"
+            ]
         }
     ]
 }
