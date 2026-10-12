@@ -1,6 +1,6 @@
 
 import { notFound } from 'next/navigation';
-import manifest from '../../../manifest.json';
+import manifest from '../../manifest.json';
 import dynamic from 'next/dynamic';
 import ToolLayout from '@/components/ui/Layout';
 
