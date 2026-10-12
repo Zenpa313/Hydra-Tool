@@ -1,19 +1,12 @@
+"use client";
+import { useState } from "react";
+
 export default function Base64Encoder() {
+    const [text, setText] = useState("");
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-
-            <h2 className="text-2xl font-bold mb-4">Base64 Encoder</h2>
-
-            <p className="text-gray-600 mb-6">Your efficient tool for base64 encoder.</p>
-
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-
-                [Interactive Base64 Encoder Interface]
-
-            </div>
-
+        <div className="space-y-4">
+            <textarea onChange={e => setText(e.target.value)} className="w-full p-2 border rounded" placeholder="Input text..." />
+            <div className="p-4 bg-gray-100 rounded font-mono break-all">{btoa(text) || "Result"}</div>
         </div>
-
     );
-
 }
