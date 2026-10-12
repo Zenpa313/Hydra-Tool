@@ -4,6 +4,13 @@ import manifest from '../../manifest.json';
 import dynamic from 'next/dynamic';
 import ToolLayout from '@/components/ui/Layout';
 
+export async function generateStaticParams() {
+    const manifest = require('../../../manifest.json');
+    return manifest.tools.map((tool: any) => ({
+        tool: tool.id,
+    }));
+}
+
 export async function generateMetadata({ params }: { params: { tool: string } }) {
     const tool = manifest.tools.find(t => t.id === params.tool);
     if (!tool) return { title: 'Not Found' };
