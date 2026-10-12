@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ tool: str
     const manifest = require('../../../manifest.json');
     const tool = manifest.tools.find((t: any) => t.id === toolId);
     if (!tool) return { title: 'Not Found' };
-    return { title: `${tool.name} — Free Online Tool | HydraTools`, description: tool.description };
+    return { title: `${tool.name} | AllTools`, description: tool.description };
 }
 
 export default async function ToolPage({ params }: { params: Promise<{ tool: string }> }) {

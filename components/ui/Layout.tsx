@@ -19,19 +19,21 @@ export default function ToolLayout({ children, title, description }: { children:
     ];
 
     return (
-        <div className="min-h-screen bg-neutral-50 text-neutral-900 font-sans flex flex-col">
-            <nav className="border-b border-neutral-200 bg-white sticky top-0 z-40">
-                <div className="max-w-7xl mx-auto px-6 py-3.5 flex items-center justify-between gap-6">
-                    <Link href="/" className="text-2xl font-extrabold tracking-tight text-neutral-950 flex items-center gap-2">
-                        <span className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-black text-lg">H</span>
-                        <span>Hydra<span className="text-blue-600">Tools</span></span>
+        <div className="min-h-screen bg-[#f8fafc] text-[#0f172a] font-sans flex flex-col">
+            <nav className="border-b border-neutral-200/80 bg-white/80 backdrop-blur-md sticky top-0 z-40">
+                <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
+                    <Link href="/" className="text-2xl font-black tracking-tight text-neutral-950 flex items-center gap-2.5">
+                        <img src="/favicon.svg" alt="AllTools" className="w-8 h-8 rounded-lg shadow-sm" />
+                        <span className="font-extrabold text-xl text-neutral-900 tracking-tight">AllTools</span>
                     </Link>
-                    <div className="flex-1 max-w-lg">
+                    <div className="flex-1 max-w-md hidden md:block">
                         <SearchBar />
                     </div>
-                    <div className="hidden sm:flex items-center gap-4 text-sm font-medium text-neutral-600">
-                        <Link href="/#popular" className="hover:text-blue-600 transition">Popular</Link>
-                        <Link href="/#categories" className="hover:text-blue-600 transition">Categories</Link>
+                    <div className="flex items-center gap-6 text-sm font-semibold text-neutral-600">
+                        <Link href="/all-tools" className="hover:text-blue-600 transition">All tools</Link>
+                        <Link href="/pdf-tools" className="hover:text-blue-600 transition">PDF tools</Link>
+                        <Link href="/about" className="hover:text-blue-600 transition hidden sm:inline">About</Link>
+                        <Link href="/contact" className="hover:text-blue-600 transition hidden sm:inline">Contact</Link>
                     </div>
                 </div>
             </nav>
@@ -80,17 +82,21 @@ export default function ToolLayout({ children, title, description }: { children:
                 </main>
             </div>
             
-            <footer className="border-t border-neutral-200 bg-white py-12 mt-16 text-center text-neutral-500 text-sm">
-                <div className="max-w-7xl mx-auto px-6 space-y-3">
-                    <div className="flex justify-center items-center gap-6 text-sm font-medium text-neutral-700">
-                        <Link href="/" className="hover:text-blue-600">Home</Link>
-                        <Link href="/#categories" className="hover:text-blue-600">Categories</Link>
-                        <Link href="/tools/word-counter" className="hover:text-blue-600">Word Counter</Link>
-                        <Link href="/tools/json-formatter" className="hover:text-blue-600">JSON Formatter</Link>
-                        <Link href="/tools/concrete-volume" className="hover:text-blue-600">Concrete Volume</Link>
+            <footer className="border-t border-neutral-200/80 bg-white py-12 mt-16 text-center text-neutral-500 text-sm">
+                <div className="max-w-7xl mx-auto px-6 space-y-4">
+                    <div className="flex flex-wrap justify-center items-center gap-6 text-sm font-semibold text-neutral-600">
+                        <Link href="/all-tools" className="hover:text-blue-600">All tools</Link>
+                        <Link href="/pdf-tools" className="hover:text-blue-600">PDF tools</Link>
+                        <Link href="/about" className="hover:text-blue-600">About</Link>
+                        <Link href="/contact" className="hover:text-blue-600">Contact</Link>
+                        <Link href="/privacy" className="hover:text-blue-600">Privacy Policy</Link>
+                        <Link href="/terms" className="hover:text-blue-600">Terms of Service</Link>
                     </div>
-                    <p className="font-semibold text-neutral-900">100% Client-side. Zero Uploads. Open-source educational utility suite.</p>
-                    <p>&copy; {new Date().getFullYear()} HydraTools. Built based on All-Tool &amp; Omni Calculator principles.</p>
+                    <div className="pt-2 border-t border-neutral-100 text-xs text-neutral-400 space-y-1">
+                        <p className="font-semibold text-neutral-700">100% Client-side. Zero Uploads.</p>
+                        <p>Most utilities run directly in your browser without creating an account or sending files to a server.</p>
+                        <p className="pt-2">&copy; {new Date().getFullYear()} AllTools. All rights reserved.</p>
+                    </div>
                 </div>
             </footer>
         </div>

@@ -38,28 +38,24 @@ export default function Home() {
             title="Every Tool You Need. Zero Uploads." 
             description="HydraTools is a fast, privacy-first collection of 100 free browser utilities for finance, code, PDFs, typography, media, and everyday productivity. Runs 100% on-device in your browser."
         >
-            {/* Value Proposition Strip */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12 p-6 bg-blue-50/60 border border-blue-100 rounded-2xl">
-                <div className="flex items-start gap-3">
-                    <span className="text-xl">⚡</span>
-                    <div>
-                        <h4 className="text-sm font-bold text-neutral-900">100% Client-Side</h4>
-                        <p className="text-xs text-neutral-600 mt-0.5">Calculations execute instantly in JavaScript. No server processing delays.</p>
-                    </div>
-                </div>
-                <div className="flex items-start gap-3">
-                    <span className="text-xl">🔒</span>
-                    <div>
-                        <h4 className="text-sm font-bold text-neutral-900">Zero Uploads</h4>
-                        <p className="text-xs text-neutral-600 mt-0.5">Your files, tokens, and data never leave your browser sandbox.</p>
-                    </div>
-                </div>
-                <div className="flex items-start gap-3">
-                    <span className="text-xl">🆓</span>
-                    <div>
-                        <h4 className="text-sm font-bold text-neutral-900">No Paywalls or Login</h4>
-                        <p className="text-xs text-neutral-600 mt-0.5">Unlimited access to all 100 tools without account creation or fees.</p>
-                    </div>
+            {/* Hero Section matching AllTools */}
+            <div className="mb-12 text-center sm:text-left space-y-4">
+                <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
+                    100% Client-Side. Zero Uploads.
+                </span>
+                <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-neutral-950">
+                    Every Tool You Need. <span className="text-blue-600">Zero Uploads.</span>
+                </h1>
+                <p className="text-base sm:text-lg text-neutral-600 max-w-3xl leading-relaxed">
+                    HydraTools is a fast, privacy-first collection of free browser utilities for PDFs, developer data, business documents, CSS, images, dates, and everyday calculations.
+                </p>
+                <div className="flex flex-wrap gap-3 pt-2 justify-center sm:justify-start">
+                    <Link href="/all-tools" className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl transition shadow-sm">
+                        Browse all tools ({manifest.tools.length})
+                    </Link>
+                    <Link href="/pdf-tools" className="px-5 py-2.5 bg-white border border-neutral-300 hover:bg-neutral-50 text-neutral-800 font-bold text-sm rounded-xl transition shadow-sm">
+                        Open PDF tools
+                    </Link>
                 </div>
             </div>
 

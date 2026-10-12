@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hydra Tools",
-  description: "Professional utility collection.",
+  title: "AllTools - Free Privacy-First Browser Tools",
+  description: "Free privacy-first browser tools for PDFs, developers, business documents, CSS, images, dates, and everyday calculations.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
