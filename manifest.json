@@ -2315,6 +2315,97 @@
                 "excel",
                 "json"
             ]
+        },
+        {
+            "id": "brick-calculator",
+            "name": "Brick Calculator",
+            "category": "Construction",
+            "description": "Calculate exact bricks and mortar needed for a masonry wall including waste.",
+            "keywords": [
+                "brick-calculator",
+                "brick calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
+        },
+        {
+            "id": "gravel-calculator",
+            "name": "Gravel Calculator",
+            "category": "Construction",
+            "description": "Estimate total tons and cubic yards of gravel, crushed stone, or sand needed.",
+            "keywords": [
+                "gravel-calculator",
+                "gravel calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
+        },
+        {
+            "id": "hvac-calculator",
+            "name": "HVAC BTU Calculator",
+            "category": "Construction",
+            "description": "Calculate heating and cooling BTUs capacity needed for any room or building.",
+            "keywords": [
+                "hvac-calculator",
+                "hvac btu calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
+        },
+        {
+            "id": "lumber-calculator",
+            "name": "Lumber Calculator",
+            "category": "Construction",
+            "description": "Calculate board feet and total lumber cost from dimensions and quantity.",
+            "keywords": [
+                "lumber-calculator",
+                "lumber calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
+        },
+        {
+            "id": "mulch-soil-calculator",
+            "name": "Mulch & Soil Calculator",
+            "category": "Construction",
+            "description": "Estimate bulk cubic yards and bagged mulch, soil, or compost needed.",
+            "keywords": [
+                "mulch-soil-calculator",
+                "mulch & soil calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
+        },
+        {
+            "id": "roof-pitch-calculator",
+            "name": "Roof Pitch Calculator",
+            "category": "Construction",
+            "description": "Calculate roof pitch ratio, angle in degrees, and rafter length.",
+            "keywords": [
+                "roof-pitch-calculator",
+                "roof pitch calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
+        },
+        {
+            "id": "staircase-calculator",
+            "name": "Staircase Calculator",
+            "category": "Construction",
+            "description": "Calculate optimal step riser height, number of treads, and stringer length.",
+            "keywords": [
+                "staircase-calculator",
+                "staircase calculator",
+                "construction",
+                "builder",
+                "materials"
+            ]
         }
     ]
 }

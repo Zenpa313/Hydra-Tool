@@ -4,6 +4,7 @@ import ToolLayout from '@/components/ui/Layout';
 
 export default function Home() {
     const categories = [
+        { key: "Construction", anchor: "construction", title: "Construction, Building & Material Calculators", count: 7 },
         { key: "Data & Conversion", anchor: "data", title: "Data Parsing, CSV & Excel Converters", count: 9 },
         { key: "Developer", anchor: "developer", title: "Developer, Code & Cryptography Tools", count: 40 },
         { key: "Design & Media", anchor: "design-media", title: "Design, Color & CSS Generators", count: 35 },
@@ -16,6 +17,7 @@ export default function Home() {
     ];
 
     const popularIds = [
+        "brick-calculator", "gravel-calculator", "hvac-calculator",
         "csv-to-excel", "excel-to-json", "data-visualizer",
         "password-generator", "case-converter", "base64", "json-formatter",
         "age-calculator", "countdown-timer", "business-days", "invoice-generator",
