@@ -1724,6 +1724,114 @@
                 "business tool",
                 "free calculator"
             ]
+        },
+        {
+            "id": "keyframe-builder",
+            "name": "Keyframe Builder",
+            "category": "Design & Media",
+            "description": "Design custom CSS animations with a visual editor.",
+            "keywords": [
+                "keyframe-builder",
+                "keyframe builder",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "gradient-mesh-generator",
+            "name": "Gradient Mesh Generator",
+            "category": "Design & Media",
+            "description": "Create organic, multi-point mesh gradients.",
+            "keywords": [
+                "gradient-mesh-generator",
+                "gradient mesh generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "font-identifier",
+            "name": "Font Identifier",
+            "category": "Design & Media",
+            "description": "Identify fonts and preview typography scales.",
+            "keywords": [
+                "font-identifier",
+                "font identifier",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "favicon-package-generator",
+            "name": "Favicon Generator",
+            "category": "Design & Media",
+            "description": "Generate favicon packages from icons or text.",
+            "keywords": [
+                "favicon-package-generator",
+                "favicon generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "mockup-generator",
+            "name": "Mockup Generator",
+            "category": "Design & Media",
+            "description": "Create professional device mockups for screenshots.",
+            "keywords": [
+                "mockup-generator",
+                "mockup generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "css-variables-generator",
+            "name": "CSS Variables",
+            "category": "Design & Media",
+            "description": "Manage design system variables visually.",
+            "keywords": [
+                "css-variables-generator",
+                "css variables",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "table-styler",
+            "name": "Table Styler",
+            "category": "Design & Media",
+            "description": "Design clean CSS tables with interactive stying.",
+            "keywords": [
+                "table-styler",
+                "table styler",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "pattern-generator",
+            "name": "Pattern Generator",
+            "category": "Design & Media",
+            "description": "Create lightweight CSS-only background patterns.",
+            "keywords": [
+                "pattern-generator",
+                "pattern generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "logo-color-extractor",
+            "name": "Logo Color Extractor",
+            "category": "Design & Media",
+            "description": "Extract primary colors from brand logos.",
+            "keywords": [
+                "logo-color-extractor",
+                "logo color extractor",
+                "css",
+                "design"
+            ]
         }
     ]
 }
