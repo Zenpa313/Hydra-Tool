@@ -1,22 +1,25 @@
 import { notFound } from 'next/navigation';
-import manifest from '../../../manifest.json';
 import ToolLayout from '@/components/ui/Layout';
 import ToolWrapper from '@/components/tools/ToolWrapper';
 
 export async function generateStaticParams() {
+    // Forcing a fresh read of the manifest at build time
+    const manifest = require('../../../manifest.json');
     return manifest.tools.map((tool: any) => ({
         tool: tool.id,
     }));
 }
 
 export async function generateMetadata({ params }: { params: { tool: string } }) {
-    const tool = manifest.tools.find(t => t.id === params.tool);
+    const manifest = require('../../../manifest.json');
+    const tool = manifest.tools.find((t: any) => t.id === params.tool);
     if (!tool) return { title: 'Not Found' };
     return { title: tool.name, description: tool.description };
 }
 
 export default async function ToolPage({ params }: { params: { tool: string } }) {
-    const tool = manifest.tools.find(t => t.id === params.tool);
+    const manifest = require('../../../manifest.json');
+    const tool = manifest.tools.find((t: any) => t.id === params.tool);
     if (!tool) notFound();
 
     return (

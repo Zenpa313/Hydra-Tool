@@ -15,7 +15,7 @@ export default function MergePdf() {
             pages.forEach(p => mergedPdf.addPage(p));
         }
         const pdfBytes = await mergedPdf.save();
-        const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+        const blob = new Blob([pdfBytes as unknown as BlobPart], { type: 'application/pdf' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
         link.download = 'merged.pdf';
