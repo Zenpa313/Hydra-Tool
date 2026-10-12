@@ -1,0 +1,27 @@
+{
+    "version": "1.0",
+    "tools": [
+        {
+            "id": "word-counter",
+            "name": "Word Counter",
+            "category": "writing",
+            "description": "Instantly count words, characters, and sentences.",
+            "keywords": [
+                "word counter",
+                "character counter",
+                "text analyzer"
+            ]
+        },
+        {
+            "id": "json-formatter",
+            "name": "JSON Formatter",
+            "category": "developer",
+            "description": "Beautify and format your JSON code.",
+            "keywords": [
+                "json formatter",
+                "json beautifier",
+                "format json"
+            ]
+        }
+    ]
+}
