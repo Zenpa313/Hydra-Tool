@@ -1,19 +1,12 @@
+"use client";
+import { useState } from "react";
+
 export default function ColorPicker() {
+    const [color, setColor] = useState("#3b82f6");
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-
-            <h2 className="text-2xl font-bold mb-4">Color Picker</h2>
-
-            <p className="text-gray-600 mb-6">Your efficient tool for color picker.</p>
-
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-
-                [Interactive Color Picker Interface]
-
-            </div>
-
+        <div className="space-y-4">
+            <input type="color" value={color} onChange={e => setColor(e.target.value)} className="w-full h-32 rounded-xl cursor-pointer" />
+            <div className="p-4 bg-neutral-900 text-white rounded-lg font-mono text-center">{color}</div>
         </div>
-
     );
-
 }

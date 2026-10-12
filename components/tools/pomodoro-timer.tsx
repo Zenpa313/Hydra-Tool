@@ -1,36 +1,22 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function PomodoroTimer() {
-    const [input, setInput] = useState("");
-    const [output, setOutput] = useState("");
+    const [time, setTime] = useState(25 * 60);
+    const [isActive, setIsActive] = useState(false);
 
-    const process = () => {
-        setOutput(btoa(input || "sample"));
-    };
+    useEffect(() => {
+        let interval: NodeJS.Timeout;
+        if (isActive && time > 0) interval = setInterval(() => setTime(t => t - 1), 1000);
+        return () => clearInterval(interval);
+    }, [isActive, time]);
 
     return (
-        <div className="space-y-6">
-            <div>
-                <label className="block text-sm font-medium text-neutral-400 mb-2">Input</label>
-                <input 
-                    type="text" 
-                    value={input} 
-                    onChange={(e) => setInput(e.target.value)}
-                    placeholder="Enter input..."
-                    className="w-full bg-neutral-900 border border-neutral-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500"
-                />
-            </div>
-            <button 
-                onClick={process}
-                className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold rounded-xl transition shadow-lg shadow-blue-500/20"
-            >
-                Execute
+        <div className="text-center space-y-6">
+            <div className="text-6xl font-mono text-blue-500">{Math.floor(time / 60)}:{String(time % 60).padStart(2, '0')}</div>
+            <button onClick={() => setIsActive(!isActive)} className="px-8 py-3 bg-blue-600 rounded-xl text-white">
+                {isActive ? "Pause" : "Start"}
             </button>
-            <div className="bg-neutral-900 border border-neutral-800 rounded-2xl p-6">
-                <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Result</span>
-                <div className="text-lg text-white font-mono mt-2 min-h-[3rem] break-all">{output || "Result will appear here..."}</div>
-            </div>
         </div>
     );
 }
