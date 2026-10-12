@@ -1364,6 +1364,66 @@
                 "pdf tool",
                 "free pdf"
             ]
+        },
+        {
+            "id": "gradient-generator",
+            "name": "Gradient Generator",
+            "category": "Design & Media",
+            "description": "Create linear and radial CSS gradients with live preview.",
+            "keywords": [
+                "gradient-generator",
+                "gradient generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "color-contrast-checker",
+            "name": "Color Contrast Checker",
+            "category": "Design & Media",
+            "description": "Check color combinations for WCAG accessibility compliance.",
+            "keywords": [
+                "color-contrast-checker",
+                "color contrast checker",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "border-generator",
+            "name": "Border Generator",
+            "category": "Design & Media",
+            "description": "Customize border width, style, radius, and color with live preview.",
+            "keywords": [
+                "border-generator",
+                "border generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "box-shadow-generator",
+            "name": "Box Shadow Generator",
+            "category": "Design & Media",
+            "description": "Generate CSS box shadows with opacity, offset, blur, and spread controls.",
+            "keywords": [
+                "box-shadow-generator",
+                "box shadow generator",
+                "css",
+                "design"
+            ]
+        },
+        {
+            "id": "glassmorphism-generator",
+            "name": "Glassmorphism Generator",
+            "category": "Design & Media",
+            "description": "Design frosted glass effect UI elements with customizable blur and opacity.",
+            "keywords": [
+                "glassmorphism-generator",
+                "glassmorphism generator",
+                "css",
+                "design"
+            ]
         }
     ]
 }
