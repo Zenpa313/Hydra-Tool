@@ -4,6 +4,7 @@ import ToolLayout from '@/components/ui/Layout';
 
 export default function Home() {
     const categories = [
+        { key: "Data & Conversion", anchor: "data", title: "Data Parsing, CSV & Excel Converters", count: 9 },
         { key: "Developer", anchor: "developer", title: "Developer, Code & Cryptography Tools", count: 40 },
         { key: "Design & Media", anchor: "design-media", title: "Design, Color & CSS Generators", count: 35 },
         { key: "Business", anchor: "business", title: "Business, Invoices & Freelance Tools", count: 25 },
@@ -15,6 +16,7 @@ export default function Home() {
     ];
 
     const popularIds = [
+        "csv-to-excel", "excel-to-json", "data-visualizer",
         "password-generator", "case-converter", "base64", "json-formatter",
         "age-calculator", "countdown-timer", "business-days", "invoice-generator",
         "business-card-maker", "contract-template", "hourly-rate-calculator",

@@ -2180,6 +2180,141 @@
                 "developer tool",
                 "code"
             ]
+        },
+        {
+            "id": "csv-formatter",
+            "name": "CSV Formatter & Validator",
+            "category": "Data & Conversion",
+            "description": "Format, validate, clean, and align delimited CSV data in your browser.",
+            "keywords": [
+                "csv-formatter",
+                "csv formatter & validator",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "csv-to-excel",
+            "name": "CSV to Excel Converter",
+            "category": "Data & Conversion",
+            "description": "Convert delimited CSV datasets into native downloadable Excel spreadsheets (.xls).",
+            "keywords": [
+                "csv-to-excel",
+                "csv to excel converter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "data-visualizer",
+            "name": "Data Visualizer",
+            "category": "Data & Conversion",
+            "description": "Render instant interactive bar and line charts from two-column text datasets.",
+            "keywords": [
+                "data-visualizer",
+                "data visualizer",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "excel-to-csv",
+            "name": "Excel to CSV Converter",
+            "category": "Data & Conversion",
+            "description": "Convert copy-pasted tab-separated Excel table cells into standard CSV rows.",
+            "keywords": [
+                "excel-to-csv",
+                "excel to csv converter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "excel-to-json",
+            "name": "Excel to JSON Converter",
+            "category": "Data & Conversion",
+            "description": "Convert tabular spreadsheet cells directly into an array of structured JSON objects.",
+            "keywords": [
+                "excel-to-json",
+                "excel to json converter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "table-to-csv",
+            "name": "HTML Table to CSV Converter",
+            "category": "Data & Conversion",
+            "description": "Extract data from raw HTML table markup and convert it directly into CSV format.",
+            "keywords": [
+                "table-to-csv",
+                "html table to csv converter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "json-to-excel",
+            "name": "JSON to Excel Converter",
+            "category": "Data & Conversion",
+            "description": "Transform arrays of structured JSON objects into clean Excel spreadsheets (.xls).",
+            "keywords": [
+                "json-to-excel",
+                "json to excel converter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "number-formatter",
+            "name": "Number & Currency Formatter",
+            "category": "Data & Conversion",
+            "description": "Format numbers and currencies across international locales (en-US, de-DE, ja-JP).",
+            "keywords": [
+                "number-formatter",
+                "number & currency formatter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
+        },
+        {
+            "id": "sql-to-json",
+            "name": "SQL to JSON Converter",
+            "category": "Data & Conversion",
+            "description": "Parse SQL INSERT INTO statements and convert column tuples into JSON objects.",
+            "keywords": [
+                "sql-to-json",
+                "sql to json converter",
+                "data",
+                "conversion",
+                "csv",
+                "excel",
+                "json"
+            ]
         }
     ]
 }
