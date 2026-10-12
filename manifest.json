@@ -1424,6 +1424,306 @@
                 "css",
                 "design"
             ]
+        },
+        {
+            "id": "invoice-generator",
+            "name": "Invoice Generator",
+            "category": "Business",
+            "description": "Create clean, professional invoices and download as PDF.",
+            "keywords": [
+                "invoice-generator",
+                "invoice generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "business-card-maker",
+            "name": "Business Card Maker",
+            "category": "Business",
+            "description": "Design custom printable business cards with live previews.",
+            "keywords": [
+                "business-card-maker",
+                "business card maker",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "contract-template",
+            "name": "Contract Template Builder",
+            "category": "Business",
+            "description": "Generate standard service agreements and contracts.",
+            "keywords": [
+                "contract-template",
+                "contract template builder",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "hourly-rate-calculator",
+            "name": "Hourly Rate Calculator",
+            "category": "Business",
+            "description": "Calculate realistic freelance and consulting hourly rates.",
+            "keywords": [
+                "hourly-rate-calculator",
+                "hourly rate calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "split-bill-calculator",
+            "name": "Split Bill Calculator",
+            "category": "Business",
+            "description": "Calculate shared restaurant bills and tips easily.",
+            "keywords": [
+                "split-bill-calculator",
+                "split bill calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "nda-generator",
+            "name": "NDA Generator",
+            "category": "Business",
+            "description": "Generate mutual non-disclosure confidentiality agreements.",
+            "keywords": [
+                "nda-generator",
+                "nda generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "timesheet-calculator",
+            "name": "Timesheet Calculator",
+            "category": "Business",
+            "description": "Calculate daily work hours, break deductions, and gross pay.",
+            "keywords": [
+                "timesheet-calculator",
+                "timesheet calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "agency-pricing-calculator",
+            "name": "Agency Pricing Calculator",
+            "category": "Business",
+            "description": "Estimate profitable project fees based on labor and overhead.",
+            "keywords": [
+                "agency-pricing-calculator",
+                "agency pricing calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "billable-hours-calculator",
+            "name": "Billable Hours Calculator",
+            "category": "Business",
+            "description": "Calculate total invoice amount based on hours worked.",
+            "keywords": [
+                "billable-hours-calculator",
+                "billable hours calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "cookie-policy-generator",
+            "name": "Cookie Policy Generator",
+            "category": "Business",
+            "description": "Generate GDPR & CCPA compliant cookie policies.",
+            "keywords": [
+                "cookie-policy-generator",
+                "cookie policy generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "email-signature-generator",
+            "name": "Email Signature Generator",
+            "category": "Business",
+            "description": "Create clean HTML signatures for Gmail and Outlook.",
+            "keywords": [
+                "email-signature-generator",
+                "email signature generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "fuel-receipt-generator",
+            "name": "Fuel Receipt Generator",
+            "category": "Business",
+            "description": "Generate thermal receipt layouts for fuel and travel expenses.",
+            "keywords": [
+                "fuel-receipt-generator",
+                "fuel receipt generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "gym-invoice-generator",
+            "name": "Gym Invoice Generator",
+            "category": "Business",
+            "description": "Generate membership invoices and fitness billing sheets.",
+            "keywords": [
+                "gym-invoice-generator",
+                "gym invoice generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "late-payment-fee-calculator",
+            "name": "Late Payment Fee Calculator",
+            "category": "Business",
+            "description": "Calculate statutory interest and penalties on past-due invoices.",
+            "keywords": [
+                "late-payment-fee-calculator",
+                "late payment fee calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "letterhead-generator",
+            "name": "Letterhead Generator",
+            "category": "Business",
+            "description": "Create elegant official stationery and company letterheads.",
+            "keywords": [
+                "letterhead-generator",
+                "letterhead generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "loan-calculator",
+            "name": "Loan Calculator",
+            "category": "Business",
+            "description": "Calculate loan payments, amortization, and total interest.",
+            "keywords": [
+                "loan-calculator",
+                "loan calculator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "privacy-policy-generator",
+            "name": "Privacy Policy Generator",
+            "category": "Business",
+            "description": "Generate standard privacy policies for web and mobile apps.",
+            "keywords": [
+                "privacy-policy-generator",
+                "privacy policy generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "project-cost-estimator",
+            "name": "Project Cost Estimator",
+            "category": "Business",
+            "description": "Estimate project budgets by factoring labor and expenses.",
+            "keywords": [
+                "project-cost-estimator",
+                "project cost estimator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "purchase-order",
+            "name": "Purchase Order Generator",
+            "category": "Business",
+            "description": "Create professional purchase orders for vendor procurement.",
+            "keywords": [
+                "purchase-order",
+                "purchase order generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "quote-generator",
+            "name": "Quote Generator",
+            "category": "Business",
+            "description": "Create clean cost estimates and price quotes for potential clients.",
+            "keywords": [
+                "quote-generator",
+                "quote generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "receipt-generator",
+            "name": "Receipt Generator",
+            "category": "Business",
+            "description": "Generate printable receipts for business sales and services.",
+            "keywords": [
+                "receipt-generator",
+                "receipt generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "resume-builder",
+            "name": "Resume Builder",
+            "category": "Business",
+            "description": "Build and format professional resumes directly in the browser.",
+            "keywords": [
+                "resume-builder",
+                "resume builder",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "terms-of-service-generator",
+            "name": "Terms of Service Generator",
+            "category": "Business",
+            "description": "Generate customized terms of service documents.",
+            "keywords": [
+                "terms-of-service-generator",
+                "terms of service generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "wifi-bill-generator",
+            "name": "Wi-Fi Bill Generator",
+            "category": "Business",
+            "description": "Generate internet subscription receipts with payment QR codes.",
+            "keywords": [
+                "wifi-bill-generator",
+                "wi-fi bill generator",
+                "business tool",
+                "free calculator"
+            ]
+        },
+        {
+            "id": "business-card-mockup",
+            "name": "Business Card Mockup",
+            "category": "Business",
+            "description": "Preview business cards in photorealistic realistic perspectives.",
+            "keywords": [
+                "business-card-mockup",
+                "business card mockup",
+                "business tool",
+                "free calculator"
+            ]
         }
     ]
 }

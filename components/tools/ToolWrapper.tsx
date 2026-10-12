@@ -23,6 +23,15 @@ const FunctionalTools: Record<string, any> = {
     'qr-gen': dynamic(() => import('./qr-gen'), { ssr: false }),
     'qr-scanner': dynamic(() => import('./qr-scanner'), { ssr: false }),
 
+    // Business & Finance
+    'invoice-generator': dynamic(() => import('./invoice-generator'), { ssr: false }),
+    'business-card-maker': dynamic(() => import('./business-card-maker'), { ssr: false }),
+    'contract-template': dynamic(() => import('./contract-template'), { ssr: false }),
+    'hourly-rate-calculator': dynamic(() => import('./hourly-rate-calculator'), { ssr: false }),
+    'split-bill-calculator': dynamic(() => import('./split-bill-calculator'), { ssr: false }),
+    'nda-generator': dynamic(() => import('./nda-generator'), { ssr: false }),
+    'timesheet-calculator': dynamic(() => import('./timesheet-calculator'), { ssr: false }),
+
     // PDF Tools Suite (Parity with all-tool.app)
     'merge-pdf': dynamic(() => import('./merge-pdf'), { ssr: false }),
     'split-pdf': dynamic(() => import('./split-pdf'), { ssr: false }),
