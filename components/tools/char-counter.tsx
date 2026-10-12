@@ -1,19 +1,5 @@
-export default function CharacterCounter() {
-    return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-
-            <h2 className="text-2xl font-bold mb-4">Character Counter</h2>
-
-            <p className="text-gray-600 mb-6">Your efficient tool for character counter.</p>
-
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-
-                [Interactive Character Counter Interface]
-
-            </div>
-
-        </div>
-
-    );
-
+"use client";
+import { useState } from "react";
+export default function Charcounter() {
+    return <div className="p-4 text-neutral-500">Functional logic for Character Counter coming soon.</div>;
 }
