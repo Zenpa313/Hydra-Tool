@@ -1,10 +1,14 @@
-export default function FlooringCostCalculator() {
+"use client";
+import { useState } from "react";
+export default function FlooringCost() {
+    const [area, setArea] = useState(0); const [price, setPrice] = useState(0);
+    const total = area * price * 1.1; // 10% waste buffer
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-            <h2 className="text-2xl font-bold mb-4">Flooring Cost Calculator</h2>
-            <p className="text-gray-600 mb-6">Professional grade tool for flooring cost calculator.</p>
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-                [Interactive Flooring Cost Calculator Placeholder Interface]
+        <div className="space-y-4">
+            <input type="number" placeholder="Area (sq ft)" className="w-full p-3 border rounded-xl" onChange={e => setArea(Number(e.target.value))} />
+            <input type="number" placeholder="Price per sq ft" className="w-full p-3 border rounded-xl" onChange={e => setPrice(Number(e.target.value))} />
+            <div className="text-xl font-bold p-4 bg-green-50 rounded-lg text-green-900 border border-green-200">
+                Total Estimate (inc. 10% waste): ${total.toFixed(2)}
             </div>
         </div>
     );

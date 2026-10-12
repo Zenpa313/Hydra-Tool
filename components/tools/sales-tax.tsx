@@ -1,11 +1,13 @@
-export default function SalesTaxCalculator() {
+"use client";
+import { useState } from "react";
+export default function SalesTax() {
+    const [amount, setAmount] = useState(0); const [taxRate, setTaxRate] = useState(0);
+    const taxAmount = (amount * taxRate) / 100;
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-            <h2 className="text-2xl font-bold mb-4">Sales Tax Calculator</h2>
-            <p className="text-gray-600 mb-6">Professional grade tool for sales tax calculator.</p>
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-                [Interactive Sales Tax Calculator Placeholder Interface]
-            </div>
+        <div className="space-y-4">
+            <input type="number" placeholder="Amount" className="w-full p-3 border rounded-xl" onChange={e => setAmount(Number(e.target.value))} />
+            <input type="number" placeholder="Tax Rate (%)" className="w-full p-3 border rounded-xl" onChange={e => setTaxRate(Number(e.target.value))} />
+            <div className="text-xl font-bold p-4 bg-gray-100 rounded-lg">Tax: ${taxAmount.toFixed(2)} | Total: ${(amount + taxAmount).toFixed(2)}</div>
         </div>
     );
 }
