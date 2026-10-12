@@ -14,6 +14,7 @@ const FunctionalTools: Record<string, any> = {
     'concrete-volume': dynamic(() => import('./concrete-volume'), { ssr: false }),
     'sales-tax': dynamic(() => import('./sales-tax'), { ssr: false }),
     'qr-gen': dynamic(() => import('./qr-gen'), { ssr: false }),
+    'qr-scanner': dynamic(() => import('./qr-scanner'), { ssr: false }),
 };
 
 export default function ToolWrapper({ toolId }: { toolId: string }) {

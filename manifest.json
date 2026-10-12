@@ -739,6 +739,18 @@
             ]
         },
         {
+            "id": "qr-scanner",
+            "name": "QR Code Scanner",
+            "category": "Design & Media",
+            "description": "Scan and decode QR codes instantly using your camera or by uploading an image. 100% client-side privacy.",
+            "keywords": [
+                "qr code scanner",
+                "qr reader",
+                "scan qr online",
+                "decode qr image"
+            ]
+        },
+        {
             "id": "barcode-gen",
             "name": "Barcode Generator",
             "category": "Design & Media",

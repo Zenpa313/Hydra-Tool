@@ -14,7 +14,7 @@ export default function Home() {
     const popularIds = [
         "concrete-volume", "json-formatter", "word-counter", "color-picker",
         "base64-encoder", "percentage-calc", "loan-amortization", "merge-pdf",
-        "fancy-font", "pomodoro-timer", "qr-gen", "password-gen"
+        "fancy-font", "pomodoro-timer", "qr-gen", "qr-scanner", "password-gen"
     ];
 
     const popularTools = manifest.tools.filter((t: any) => popularIds.includes(t.id));
