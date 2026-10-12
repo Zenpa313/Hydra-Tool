@@ -1,11 +1,15 @@
-export default function CreditCardPayoffCalculator() {
+"use client";
+import { useState } from "react";
+export default function Creditcardpayoff() {
+    
+    const [balance, setBalance] = useState(5000); const [rate, setRate] = useState(18); const [payment, setPayment] = useState(200);
+    const months = Math.ceil(-Math.log(1 - (balance * (rate / 100 / 12)) / payment) / Math.log(1 + rate / 100 / 12));
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-            <h2 className="text-2xl font-bold mb-4">Credit Card Payoff Calculator</h2>
-            <p className="text-gray-600 mb-6">Professional grade tool for credit card payoff calculator.</p>
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-                [Interactive Credit Card Payoff Calculator Placeholder Interface]
-            </div>
+        <div className="space-y-4">
+            <input type="number" placeholder="Balance ($)" className="w-full p-3 border rounded" onChange={e => setBalance(Number(e.target.value))} />
+            <input type="number" placeholder="APR Rate (%)" className="w-full p-3 border rounded" onChange={e => setRate(Number(e.target.value))} />
+            <input type="number" placeholder="Monthly Payment ($)" className="w-full p-3 border rounded" onChange={e => setPayment(Number(e.target.value))} />
+            <div className="p-4 bg-gray-100 rounded-lg">Months to Payoff: {months > 0 ? months : "Increase payment"}</div>
         </div>
     );
 }

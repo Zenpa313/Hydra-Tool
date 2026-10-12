@@ -1,11 +1,17 @@
-export default function LoanAmortizationCalculator() {
+"use client";
+import { useState } from "react";
+export default function Loanamortization() {
+    
+    const [p, setP] = useState(100000); const [r, setR] = useState(5); const [n, setN] = useState(30);
+    const monthlyRate = r / 100 / 12;
+    const numPayments = n * 12;
+    const payment = (p * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -numPayments));
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-            <h2 className="text-2xl font-bold mb-4">Loan Amortization Calculator</h2>
-            <p className="text-gray-600 mb-6">Professional grade tool for loan amortization calculator.</p>
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-                [Interactive Loan Amortization Calculator Placeholder Interface]
-            </div>
+        <div className="space-y-4">
+            <input type="number" placeholder="Loan Amount" className="w-full p-3 border rounded" onChange={e => setP(Number(e.target.value))} />
+            <input type="number" placeholder="Annual Rate (%)" className="w-full p-3 border rounded" onChange={e => setR(Number(e.target.value))} />
+            <input type="number" placeholder="Years" className="w-full p-3 border rounded" onChange={e => setN(Number(e.target.value))} />
+            <div className="p-4 bg-gray-100 rounded-lg">Monthly Payment: ${payment.toFixed(2)}</div>
         </div>
     );
 }

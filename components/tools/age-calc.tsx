@@ -1,11 +1,13 @@
-export default function AgeCalculator() {
+"use client";
+import { useState } from "react";
+export default function Agecalc() {
+    
+    const [dob, setDob] = useState("");
+    const age = new Date().getFullYear() - new Date(dob).getFullYear();
     return (
-        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
-            <h2 className="text-2xl font-bold mb-4">Age Calculator</h2>
-            <p className="text-gray-600 mb-6">Professional grade tool for age calculator.</p>
-            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
-                [Interactive Age Calculator Placeholder Interface]
-            </div>
+        <div className="space-y-4">
+            <input type="date" className="w-full p-3 border rounded" onChange={e => setDob(e.target.value)} />
+            <div className="p-4 bg-gray-100 rounded-lg">Age: {dob ? age : "-"} years</div>
         </div>
     );
 }
