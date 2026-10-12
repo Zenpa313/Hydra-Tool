@@ -928,9 +928,9 @@
         },
         {
             "id": "pomodoro-timer",
-            "name": "Pomodoro Focus Timer",
-            "category": "Productivity",
-            "description": "Customizable 25/5 interval timer with browser sound chimes and session counters.",
+            "name": "Pomodoro Timer",
+            "category": "Time & Date",
+            "description": "25-minute focus intervals and 5-minute break productivity timer.",
             "keywords": [
                 "pomodoro timer",
                 "focus timer",
@@ -939,9 +939,9 @@
         },
         {
             "id": "stopwatch",
-            "name": "Precision Stopwatch",
-            "category": "Productivity",
-            "description": "Millisecond-accurate digital stopwatch with lap recording and split time logs.",
+            "name": "Stopwatch",
+            "category": "Time & Date",
+            "description": "High-precision browser stopwatch with split lap recording capabilities.",
             "keywords": [
                 "online stopwatch",
                 "lap timer",
@@ -950,9 +950,9 @@
         },
         {
             "id": "countdown-timer",
-            "name": "Event Countdown Clock",
-            "category": "Productivity",
-            "description": "Create a live countdown timer to any upcoming holiday, event, or release date.",
+            "name": "Countdown Timer",
+            "category": "Time & Date",
+            "description": "Simple countdown timer for focused work sessions, cooking, and daily tasks.",
             "keywords": [
                 "countdown timer",
                 "days until",
@@ -1831,6 +1831,138 @@
                 "logo color extractor",
                 "css",
                 "design"
+            ]
+        },
+        {
+            "id": "age-calculator",
+            "name": "Age Calculator",
+            "category": "Time & Date",
+            "description": "Calculate exact age in years, months, and days with leap-year precision.",
+            "keywords": [
+                "age-calculator",
+                "age calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "age-in-days",
+            "name": "Age in Days Calculator",
+            "category": "Time & Date",
+            "description": "Calculate exactly how many total days you have been alive on Earth.",
+            "keywords": [
+                "age-in-days",
+                "age in days calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "business-days",
+            "name": "Business Days Calculator",
+            "category": "Time & Date",
+            "description": "Calculate the number of working days (Mon-Fri) between two calendar dates.",
+            "keywords": [
+                "business-days",
+                "business days calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "calendar-week",
+            "name": "Calendar Week Calculator",
+            "category": "Time & Date",
+            "description": "Determine the standard ISO 8601 calendar week number for any date.",
+            "keywords": [
+                "calendar-week",
+                "calendar week calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "date-difference",
+            "name": "Date Difference Calculator",
+            "category": "Time & Date",
+            "description": "Calculate the exact span between two dates in years, months, and days.",
+            "keywords": [
+                "date-difference",
+                "date difference calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "date-formatter",
+            "name": "Date Formatter",
+            "category": "Time & Date",
+            "description": "Format dates and timestamps into ISO 8601, UTC, and readable local strings.",
+            "keywords": [
+                "date-formatter",
+                "date formatter",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "days-until",
+            "name": "Days Until Calculator",
+            "category": "Time & Date",
+            "description": "Calculate how many calendar days remain until a target event or date.",
+            "keywords": [
+                "days-until",
+                "days until calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "time-duration",
+            "name": "Time Duration Calculator",
+            "category": "Time & Date",
+            "description": "Calculate elapsed hours and minutes between start and end clock times.",
+            "keywords": [
+                "time-duration",
+                "time duration calculator",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "timezone-converter",
+            "name": "Timezone Converter",
+            "category": "Time & Date",
+            "description": "Convert local times across global timezones (UTC, New York, London, Tokyo).",
+            "keywords": [
+                "timezone-converter",
+                "timezone converter",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "unix-timestamp-converter",
+            "name": "Unix Timestamp Converter",
+            "category": "Time & Date",
+            "description": "Convert Unix timestamps (seconds) to human-readable dates and vice-versa.",
+            "keywords": [
+                "unix-timestamp-converter",
+                "unix timestamp converter",
+                "time",
+                "date"
+            ]
+        },
+        {
+            "id": "world-clock",
+            "name": "World Clock",
+            "category": "Time & Date",
+            "description": "Track current local times across major international metropolitan regions.",
+            "keywords": [
+                "world-clock",
+                "world clock",
+                "time",
+                "date"
             ]
         }
     ]

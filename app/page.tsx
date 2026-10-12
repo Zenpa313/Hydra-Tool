@@ -4,6 +4,7 @@ import ToolLayout from '@/components/ui/Layout';
 
 export default function Home() {
     const categories = [
+        { key: "Time & Date", anchor: "time-date", title: "Time, Calendar & Date Utilities", count: 14 },
         { key: "Business", anchor: "business", title: "Business, Invoices & Freelance Tools", count: 25 },
         { key: "PDF Tools", anchor: "pdf-tools", title: "PDF Utilities & Document Processing", count: 21 },
         { key: "Calculators", anchor: "calculators", title: "Calculators & Financial Utilities", count: 20 },
@@ -14,7 +15,8 @@ export default function Home() {
     ];
 
     const popularIds = [
-        "invoice-generator", "business-card-maker", "contract-template", "hourly-rate-calculator",
+        "age-calculator", "countdown-timer", "business-days", "invoice-generator",
+        "business-card-maker", "contract-template", "hourly-rate-calculator",
         "merge-pdf", "split-pdf", "rotate-pdf", "jpg-to-pdf", "add-page-numbers",
         "concrete-volume", "json-formatter", "word-counter", "color-picker",
         "base64-encoder", "percentage-calc", "loan-amortization",
