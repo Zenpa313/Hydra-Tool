@@ -31,6 +31,12 @@ const FunctionalTools: Record<string, any> = {
     'split-bill-calculator': dynamic(() => import('./split-bill-calculator'), { ssr: false }),
     'nda-generator': dynamic(() => import('./nda-generator'), { ssr: false }),
     'timesheet-calculator': dynamic(() => import('./timesheet-calculator'), { ssr: false }),
+    'agency-pricing-calculator': dynamic(() => import('./agency-pricing-calculator'), { ssr: false }),
+    'billable-hours-calculator': dynamic(() => import('./billable-hours-calculator'), { ssr: false }),
+    'late-payment-fee-calculator': dynamic(() => import('./late-payment-fee-calculator'), { ssr: false }),
+    'project-cost-estimator': dynamic(() => import('./project-cost-estimator'), { ssr: false }),
+    'quote-generator': dynamic(() => import('./quote-generator'), { ssr: false }),
+    'receipt-generator': dynamic(() => import('./receipt-generator'), { ssr: false }),
 
     // PDF Tools Suite (Parity with all-tool.app)
     'merge-pdf': dynamic(() => import('./merge-pdf'), { ssr: false }),
