@@ -1,11 +1,16 @@
-
 import { notFound } from 'next/navigation';
-import manifest from '../../manifest.json';
+import manifest from '../../../manifest.json';
 import dynamic from 'next/dynamic';
 import ToolLayout from '@/components/ui/Layout';
 
+// Create a component map for dynamic loading
+const ToolMap: { [key: string]: any } = {
+    'word-counter': dynamic(() => import('@/components/tools/word-counter')),
+    'json-formatter': dynamic(() => import('@/components/tools/json-formatter')),
+    // ... add more as you add tools
+};
+
 export async function generateStaticParams() {
-    const manifest = require('../../../manifest.json');
     return manifest.tools.map((tool: any) => ({
         tool: tool.id,
     }));
@@ -20,8 +25,9 @@ export async function generateMetadata({ params }: { params: { tool: string } })
 export default async function ToolPage({ params }: { params: { tool: string } }) {
     const tool = manifest.tools.find(t => t.id === params.tool);
     if (!tool) notFound();
-
-    const ToolComponent = dynamic(() => import(`@/components/tools/${tool.id}`));
+    
+    // Check if tool exists in our map
+    const ToolComponent = ToolMap[tool.id] || (() => <div>Tool logic not implemented yet.</div>);
 
     return (
         <ToolLayout title={tool.name} description={tool.description}>
