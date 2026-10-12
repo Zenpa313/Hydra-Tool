@@ -1,13 +1,12 @@
 import { notFound } from 'next/navigation';
 import manifest from '../../../manifest.json';
 import dynamic from 'next/dynamic';
-import ToolLayout from '@/components/ui/Layout';
+import ToolLayout from '../../../components/ui/Layout';
 
 // Create a component map for dynamic loading
 const ToolMap: { [key: string]: any } = {
-    'word-counter': dynamic(() => import('@/components/tools/word-counter')),
-    'json-formatter': dynamic(() => import('@/components/tools/json-formatter')),
-    // ... add more as you add tools
+    'word-counter': dynamic(() => import('../../../components/tools/word-counter')),
+    'json-formatter': dynamic(() => import('../../../components/tools/json-formatter')),
 };
 
 export async function generateStaticParams() {
