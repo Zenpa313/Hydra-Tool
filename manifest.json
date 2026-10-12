@@ -764,7 +764,7 @@
         {
             "id": "img-resize",
             "name": "Image Resizer (Browser)",
-            "category": "Design & Media",
+            "category": "Image",
             "description": "Resize photos and graphics locally using HTML5 canvas without uploading to servers.",
             "keywords": [
                 "image resizer",
@@ -775,7 +775,7 @@
         {
             "id": "img-compress",
             "name": "Image Compressor",
-            "category": "Design & Media",
+            "category": "Image",
             "description": "Compress JPEG and WebP photos to reduce file size with real-time quality slider.",
             "keywords": [
                 "compress image",
@@ -786,7 +786,7 @@
         {
             "id": "png-to-webp",
             "name": "PNG to WebP Converter",
-            "category": "Design & Media",
+            "category": "Image",
             "description": "Convert heavy PNG graphics to ultra-light WebP format on-device in milliseconds.",
             "keywords": [
                 "png to webp",
@@ -797,7 +797,7 @@
         {
             "id": "svg-to-png",
             "name": "SVG to PNG Converter",
-            "category": "Design & Media",
+            "category": "Image",
             "description": "Rasterize scalable vector SVG files into crisp high-resolution PNG images.",
             "keywords": [
                 "svg to png",
@@ -808,7 +808,7 @@
         {
             "id": "favicon-gen",
             "name": "Favicon Generator",
-            "category": "Design & Media",
+            "category": "Image",
             "description": "Generate complete favicon bundles (16x16, 32x32, 48x48) from any square PNG.",
             "keywords": [
                 "favicon generator",
@@ -2444,6 +2444,34 @@
                 "real estate",
                 "property",
                 "mortgage"
+            ]
+        },
+        {
+            "id": "image-compressor",
+            "name": "Image Compressor",
+            "category": "Image",
+            "description": "Compress and reduce image file sizes client-side with adjustable quality settings.",
+            "keywords": [
+                "image-compressor",
+                "image compressor",
+                "image",
+                "photo",
+                "compress",
+                "qr"
+            ]
+        },
+        {
+            "id": "qr-generator",
+            "name": "QR Generator",
+            "category": "Image",
+            "description": "Create custom high-resolution QR codes for links, text, and Wi-Fi networks.",
+            "keywords": [
+                "qr-generator",
+                "qr generator",
+                "image",
+                "photo",
+                "compress",
+                "qr"
             ]
         }
     ]

@@ -8,7 +8,8 @@ export default function ToolLayout({ children, title, description }: { children:
         { name: 'Construction & Materials', slug: 'construction', count: 7 },
         { name: 'Data & Conversion', slug: 'data', count: 9 },
         { name: 'Developer & Code', slug: 'developer', count: 40 },
-        { name: 'Design & Media', slug: 'design-media', count: 35 },
+        { name: 'Design & Media', slug: 'design-media', count: 30 },
+        { name: 'Image', slug: 'image', count: 7 },
         { name: 'Business & Finance', slug: 'business', count: 25 },
         { name: 'PDF Tools', slug: 'pdf-tools', count: 21 },
         { name: 'Calculators & Finance', slug: 'calculators', count: 20 },
@@ -43,7 +44,7 @@ export default function ToolLayout({ children, title, description }: { children:
                             <nav className="space-y-1">
                                 <Link href="/" className="flex items-center justify-between px-3 py-2 rounded-lg text-sm font-semibold bg-neutral-100 text-neutral-900">
                                     <span>All Tools</span>
-                                    <span className="text-xs font-bold bg-neutral-200 text-neutral-700 px-2 py-0.5 rounded-full">209</span>
+                                    <span className="text-xs font-bold bg-neutral-200 text-neutral-700 px-2 py-0.5 rounded-full">211</span>
                                 </Link>
                                 {categories.map(cat => (
                                     <Link key={cat.slug} href={`/#${cat.slug}`} className="flex items-center justify-between px-3 py-2 rounded-lg text-sm font-medium text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 transition">
