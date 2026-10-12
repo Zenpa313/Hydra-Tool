@@ -223,9 +223,9 @@
         },
         {
             "id": "json-formatter",
-            "name": "JSON Formatter & Beautifier",
+            "name": "JSON Formatter & Validator",
             "category": "Developer",
-            "description": "Validate, prettify, and inspect nested JSON data with syntax highlights.",
+            "description": "Format, validate, beautify, and clean JSON payloads client-side.",
             "keywords": [
                 "json formatter",
                 "beautify json",
@@ -234,9 +234,9 @@
         },
         {
             "id": "json-minifier",
-            "name": "JSON Minifier & Compressor",
+            "name": "JSON Minifier",
             "category": "Developer",
-            "description": "Strip whitespace and comments to compress JSON payloads for production APIs.",
+            "description": "Minify JSON payloads by removing excess whitespace and newlines.",
             "keywords": [
                 "json minifier",
                 "compress json",
@@ -247,7 +247,7 @@
             "id": "base64-encoder",
             "name": "Base64 Encoder",
             "category": "Developer",
-            "description": "Encode plain text strings into RFC-standard Base64 ASCII representation.",
+            "description": "Encode plain text strings into standard RFC 4648 Base64.",
             "keywords": [
                 "base64 encoder",
                 "encode base64",
@@ -258,7 +258,7 @@
             "id": "base64-decoder",
             "name": "Base64 Decoder",
             "category": "Developer",
-            "description": "Decode Base64 encoded strings back to clean human-readable text.",
+            "description": "Decode Base64 encoded strings back to original human-readable text.",
             "keywords": [
                 "base64 decoder",
                 "decode base64",
@@ -267,9 +267,9 @@
         },
         {
             "id": "url-encoder",
-            "name": "URL Encoder",
+            "name": "URL Encoder / Decoder",
             "category": "Developer",
-            "description": "Encode query parameters and strings with standard percent-encoding (RFC 3986).",
+            "description": "Safely percent-encode or decode URL query parameters and URI components.",
             "keywords": [
                 "url encode",
                 "percent encoding",
@@ -280,7 +280,7 @@
             "id": "url-decoder",
             "name": "URL Decoder",
             "category": "Developer",
-            "description": "Decode percent-encoded URL query strings and URI components back to plain text.",
+            "description": "Decode percent-encoded URI strings and query parameters.",
             "keywords": [
                 "url decode",
                 "decode uri",
@@ -443,9 +443,9 @@
         },
         {
             "id": "word-counter",
-            "name": "Word & Character Counter",
-            "category": "Text & Writing",
-            "description": "Count words, characters, sentences, paragraphs, and estimated reading time.",
+            "name": "Word Counter",
+            "category": "Developer",
+            "description": "Analyze word count, characters, reading speed, and text statistics in real time.",
             "keywords": [
                 "word counter",
                 "character counter",
@@ -521,8 +521,8 @@
         {
             "id": "lorem-ipsum",
             "name": "Lorem Ipsum Generator",
-            "category": "Text & Writing",
-            "description": "Generate customizable paragraphs, sentences, and words of standard placeholder text.",
+            "category": "Developer",
+            "description": "Generate customizable paragraphs of classic dummy filler text.",
             "keywords": [
                 "lorem ipsum generator",
                 "dummy text",
@@ -1963,6 +1963,222 @@
                 "world clock",
                 "time",
                 "date"
+            ]
+        },
+        {
+            "id": "ai-noise-canceller",
+            "name": "AI Voice Noise Canceller",
+            "category": "Developer",
+            "description": "Filter and suppress background noise from audio recordings.",
+            "keywords": [
+                "ai-noise-canceller",
+                "ai voice noise canceller",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "base64",
+            "name": "Base64 Encoder/Decoder",
+            "category": "Developer",
+            "description": "Encode and decode UTF-8 text to and from Base64 format instantly.",
+            "keywords": [
+                "base64",
+                "base64 encoder/decoder",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "case-converter",
+            "name": "Case Converter",
+            "category": "Developer",
+            "description": "Convert text between uppercase, lowercase, title, camel, snake, and kebab case.",
+            "keywords": [
+                "case-converter",
+                "case converter",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "html-entities",
+            "name": "HTML Entity Encoder/Decoder",
+            "category": "Developer",
+            "description": "Encode special characters to HTML numeric entities and decode them.",
+            "keywords": [
+                "html-entities",
+                "html entity encoder/decoder",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "markdown-to-html",
+            "name": "Markdown to HTML Converter",
+            "category": "Developer",
+            "description": "Convert raw Markdown syntax into clean formatted HTML code.",
+            "keywords": [
+                "markdown-to-html",
+                "markdown to html converter",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "password-generator",
+            "name": "Password Generator",
+            "category": "Developer",
+            "description": "Generate cryptographically strong passwords with custom lengths and symbols.",
+            "keywords": [
+                "password-generator",
+                "password generator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "xml-formatter",
+            "name": "XML Formatter",
+            "category": "Developer",
+            "description": "Format, indent, and beautify XML strings with syntax indentation.",
+            "keywords": [
+                "xml-formatter",
+                "xml formatter",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "yaml-formatter",
+            "name": "YAML Formatter",
+            "category": "Developer",
+            "description": "Validate YAML indentation and strip invalid tab characters.",
+            "keywords": [
+                "yaml-formatter",
+                "yaml formatter",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "chinese-converter",
+            "name": "Chinese Character Converter",
+            "category": "Developer",
+            "description": "Convert between Simplified and Traditional Chinese script.",
+            "keywords": [
+                "chinese-converter",
+                "chinese character converter",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "json-validator",
+            "name": "JSON Validator",
+            "category": "Developer",
+            "description": "Validate JSON syntax structure and spot parse errors immediately.",
+            "keywords": [
+                "json-validator",
+                "json validator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "markdown-editor",
+            "name": "Markdown Live Editor",
+            "category": "Developer",
+            "description": "Dual-pane live preview Markdown editor with real-time formatting.",
+            "keywords": [
+                "markdown-editor",
+                "markdown live editor",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "md5-hash-generator",
+            "name": "MD5 Hash Generator",
+            "category": "Developer",
+            "description": "Generate standard 128-bit MD5 checksum hashes from strings.",
+            "keywords": [
+                "md5-hash-generator",
+                "md5 hash generator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "sha1-hash-generator",
+            "name": "SHA-1 Hash Generator",
+            "category": "Developer",
+            "description": "Compute standard SHA-1 cryptographic hashes using SubtleCrypto.",
+            "keywords": [
+                "sha1-hash-generator",
+                "sha-1 hash generator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "sha256-hash-generator",
+            "name": "SHA-256 Hash Generator",
+            "category": "Developer",
+            "description": "Compute secure 256-bit cryptographic SHA-256 digests in your browser.",
+            "keywords": [
+                "sha256-hash-generator",
+                "sha-256 hash generator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "sha384-hash-generator",
+            "name": "SHA-384 Hash Generator",
+            "category": "Developer",
+            "description": "Compute high-security 384-bit SHA-384 digests on device.",
+            "keywords": [
+                "sha384-hash-generator",
+                "sha-384 hash generator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "sha512-hash-generator",
+            "name": "SHA-512 Hash Generator",
+            "category": "Developer",
+            "description": "Compute military-grade 512-bit SHA-512 cryptographic hashes.",
+            "keywords": [
+                "sha512-hash-generator",
+                "sha-512 hash generator",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "text-compare",
+            "name": "Text Compare & Diff",
+            "category": "Developer",
+            "description": "Compare two blocks of text side-by-side to highlight differences.",
+            "keywords": [
+                "text-compare",
+                "text compare & diff",
+                "developer tool",
+                "code"
+            ]
+        },
+        {
+            "id": "uuid-generator",
+            "name": "UUID Generator",
+            "category": "Developer",
+            "description": "Generate RFC 4122 compliant version 4 UUIDs instantly.",
+            "keywords": [
+                "uuid-generator",
+                "uuid generator",
+                "developer tool",
+                "code"
             ]
         }
     ]

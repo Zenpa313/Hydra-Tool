@@ -4,23 +4,23 @@ import ToolLayout from '@/components/ui/Layout';
 
 export default function Home() {
     const categories = [
-        { key: "Time & Date", anchor: "time-date", title: "Time, Calendar & Date Utilities", count: 14 },
+        { key: "Developer", anchor: "developer", title: "Developer, Code & Cryptography Tools", count: 40 },
+        { key: "Design & Media", anchor: "design-media", title: "Design, Color & CSS Generators", count: 35 },
         { key: "Business", anchor: "business", title: "Business, Invoices & Freelance Tools", count: 25 },
         { key: "PDF Tools", anchor: "pdf-tools", title: "PDF Utilities & Document Processing", count: 21 },
         { key: "Calculators", anchor: "calculators", title: "Calculators & Financial Utilities", count: 20 },
-        { key: "Developer", anchor: "developer", title: "Developer & Data Tools", count: 20 },
-        { key: "Text & Writing", anchor: "text-writing", title: "Text, Typography & Content Tools", count: 20 },
-        { key: "Design & Media", anchor: "design-media", title: "Design, Color & Media Converters", count: 26 },
-        { key: "Productivity", anchor: "productivity", title: "Productivity & Everyday Utilities", count: 20 },
+        { key: "Text & Writing", anchor: "text-writing", title: "Text, Typography & Content Tools", count: 18 },
+        { key: "Productivity", anchor: "productivity", title: "Productivity & Everyday Utilities", count: 17 },
+        { key: "Time & Date", anchor: "time-date", title: "Time, Calendar & Date Utilities", count: 14 },
     ];
 
     const popularIds = [
+        "password-generator", "case-converter", "base64", "json-formatter",
         "age-calculator", "countdown-timer", "business-days", "invoice-generator",
         "business-card-maker", "contract-template", "hourly-rate-calculator",
         "merge-pdf", "split-pdf", "rotate-pdf", "jpg-to-pdf", "add-page-numbers",
-        "concrete-volume", "json-formatter", "word-counter", "color-picker",
-        "base64-encoder", "percentage-calc", "loan-amortization",
-        "fancy-font", "pomodoro-timer", "qr-gen", "qr-scanner", "password-gen"
+        "concrete-volume", "word-counter", "color-picker", "percentage-calc",
+        "fancy-font", "pomodoro-timer", "qr-gen", "qr-scanner"
     ];
 
     const popularTools = manifest.tools.filter((t: any) => popularIds.includes(t.id));
