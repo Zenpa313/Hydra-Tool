@@ -1,22 +1,19 @@
-"use client";
-import { useState } from "react";
-
 export default function WordCounter() {
-    const [text, setText] = useState("");
-    const wordCount = text.trim().split(/\s+/).filter(w => w.length > 0).length;
-    const charCount = text.length;
-    
     return (
-        <div className="space-y-4">
-            <textarea 
-                className="w-full h-40 p-4 border rounded-lg focus:ring-2 focus:ring-blue-500"
-                placeholder="Type or paste your text here..."
-                onChange={(e) => setText(e.target.value)}
-            />
-            <div className="flex gap-4">
-                <div className="font-bold text-lg bg-blue-100 p-3 rounded">Words: {wordCount}</div>
-                <div className="font-bold text-lg bg-green-100 p-3 rounded">Characters: {charCount}</div>
+        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
+
+            <h2 className="text-2xl font-bold mb-4">Word Counter</h2>
+
+            <p className="text-gray-600 mb-6">Your efficient tool for word counter.</p>
+
+            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
+
+                [Interactive Word Counter Interface]
+
             </div>
+
         </div>
+
     );
+
 }

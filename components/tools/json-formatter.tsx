@@ -1,27 +1,19 @@
-"use client";
-import { useState } from "react";
-
 export default function JSONFormatter() {
-    const [json, setJson] = useState("");
-    const [output, setOutput] = useState("");
-    const [error, setError] = useState("");
-
-    const format = () => {
-        try {
-            const parsed = JSON.parse(json);
-            setOutput(JSON.stringify(parsed, null, 4));
-            setError("");
-        } catch (e) {
-            setError("Invalid JSON");
-        }
-    }
-    
     return (
-        <div className="space-y-4">
-            <textarea className="w-full h-32 p-2 border rounded" placeholder="Paste JSON here" onChange={(e) => setJson(e.target.value)} />
-            <button onClick={format} className="bg-blue-600 text-white p-2 rounded">Format JSON</button>
-            {error && <div className="text-red-500">{error}</div>}
-            <pre className="p-4 bg-gray-100 rounded overflow-auto">{output}</pre>
+        <div className="p-6 border rounded-lg shadow-md bg-white border-blue-100">
+
+            <h2 className="text-2xl font-bold mb-4">JSON Formatter</h2>
+
+            <p className="text-gray-600 mb-6">Your efficient tool for json formatter.</p>
+
+            <div className="p-8 bg-blue-50 rounded-md text-center text-blue-800 font-bold">
+
+                [Interactive JSON Formatter Interface]
+
+            </div>
+
         </div>
+
     );
+
 }

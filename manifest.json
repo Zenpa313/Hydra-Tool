@@ -1,26 +1,1104 @@
 {
-    "version": "1.0",
+    "version": "2.0",
     "tools": [
         {
-            "id": "word-counter",
-            "name": "Word Counter",
-            "category": "writing",
-            "description": "Instantly count words, characters, and sentences.",
+            "id": "concrete-volume",
+            "name": "Concrete Volume Calculator",
+            "category": "Calculators",
+            "description": "Calculate cubic yards and bags of concrete needed for slabs, footings, and columns.",
             "keywords": [
-                "word counter",
-                "character counter",
-                "text analyzer"
+                "concrete calculator",
+                "slab volume",
+                "cement yardage"
+            ]
+        },
+        {
+            "id": "flooring-cost",
+            "name": "Flooring & Tile Cost Calculator",
+            "category": "Calculators",
+            "description": "Estimate square footage, tile waste allowance, and total flooring project costs.",
+            "keywords": [
+                "tile cost calculator",
+                "flooring estimator",
+                "square footage"
+            ]
+        },
+        {
+            "id": "loan-amortization",
+            "name": "Loan & Mortgage Calculator",
+            "category": "Calculators",
+            "description": "Calculate monthly loan payments, total interest, and amortization payoff schedule.",
+            "keywords": [
+                "mortgage calculator",
+                "loan payment",
+                "amortization"
+            ]
+        },
+        {
+            "id": "sales-tax",
+            "name": "Sales Tax & VAT Calculator",
+            "category": "Calculators",
+            "description": "Quickly calculate gross, net, and sales tax or VAT percentage in seconds.",
+            "keywords": [
+                "sales tax calculator",
+                "vat calculator",
+                "tax rate"
+            ]
+        },
+        {
+            "id": "salary-converter",
+            "name": "Hourly to Yearly Salary Converter",
+            "category": "Calculators",
+            "description": "Convert hourly wage to annual salary, weekly take-home, and overtime projections.",
+            "keywords": [
+                "hourly to salary",
+                "wage calculator",
+                "annual income"
+            ]
+        },
+        {
+            "id": "credit-card-payoff",
+            "name": "Credit Card Payoff Calculator",
+            "category": "Calculators",
+            "description": "See how long it will take to pay off credit card debt and calculate interest saved.",
+            "keywords": [
+                "credit card payoff",
+                "debt calculator",
+                "interest payoff"
+            ]
+        },
+        {
+            "id": "roi-calc",
+            "name": "ROI Calculator",
+            "category": "Calculators",
+            "description": "Measure return on investment and annual percentage gain for business or assets.",
+            "keywords": [
+                "roi calculator",
+                "return on investment",
+                "gain percentage"
+            ]
+        },
+        {
+            "id": "break-even",
+            "name": "Break-Even Analysis Calculator",
+            "category": "Calculators",
+            "description": "Determine the exact sales volume needed to cover fixed and variable business costs.",
+            "keywords": [
+                "break even calculator",
+                "margin analysis",
+                "business break-even"
+            ]
+        },
+        {
+            "id": "profit-margin",
+            "name": "Markup & Profit Margin Calculator",
+            "category": "Calculators",
+            "description": "Calculate gross margin, markup percentage, and net profit from cost and selling price.",
+            "keywords": [
+                "margin calculator",
+                "markup percentage",
+                "profit margin"
+            ]
+        },
+        {
+            "id": "age-calc",
+            "name": "Age & Birthday Calculator",
+            "category": "Calculators",
+            "description": "Find exact age in years, months, days, hours, and minutes with upcoming milestone countdown.",
+            "keywords": [
+                "age calculator",
+                "birthday finder",
+                "days old"
+            ]
+        },
+        {
+            "id": "discount-calc",
+            "name": "Discount & Sale Price Calculator",
+            "category": "Calculators",
+            "description": "Calculate final discount price, amount saved, and double-discount savings instantly.",
+            "keywords": [
+                "discount calculator",
+                "sale price",
+                "percent off"
+            ]
+        },
+        {
+            "id": "tip-calc",
+            "name": "Tip & Bill Splitter Calculator",
+            "category": "Calculators",
+            "description": "Calculate exact tip percentages and split bills evenly between any number of guests.",
+            "keywords": [
+                "tip calculator",
+                "split bill",
+                "restaurant tip"
+            ]
+        },
+        {
+            "id": "compound-interest",
+            "name": "Compound Interest Calculator",
+            "category": "Calculators",
+            "description": "Project wealth growth over time with monthly contributions and annual compounding.",
+            "keywords": [
+                "compound interest",
+                "investment growth",
+                "savings calculator"
+            ]
+        },
+        {
+            "id": "bmi-calc",
+            "name": "BMI & Body Mass Calculator",
+            "category": "Calculators",
+            "description": "Calculate Body Mass Index and healthy weight ranges for imperial and metric units.",
+            "keywords": [
+                "bmi calculator",
+                "body mass index",
+                "healthy weight"
+            ]
+        },
+        {
+            "id": "calorie-calc",
+            "name": "Daily Calorie & BMR Calculator",
+            "category": "Calculators",
+            "description": "Calculate Basal Metabolic Rate and daily maintenance calorie burn by activity level.",
+            "keywords": [
+                "bmr calculator",
+                "calorie calculator",
+                "tdee estimator"
+            ]
+        },
+        {
+            "id": "date-diff",
+            "name": "Date Difference Calculator",
+            "category": "Calculators",
+            "description": "Count exact days, weeks, and business days between any two calendar dates.",
+            "keywords": [
+                "days between dates",
+                "date difference",
+                "duration counter"
+            ]
+        },
+        {
+            "id": "percentage-calc",
+            "name": "Percentage Calculator",
+            "category": "Calculators",
+            "description": "Compute percentage increase, decrease, fraction to percent, and percentage of a number.",
+            "keywords": [
+                "percentage calculator",
+                "percent increase",
+                "percent change"
+            ]
+        },
+        {
+            "id": "time-card",
+            "name": "Work Hours & Time Card Calculator",
+            "category": "Calculators",
+            "description": "Track shift hours, break deductions, and calculate total gross wages earned.",
+            "keywords": [
+                "timecard calculator",
+                "hours worked",
+                "shift wage"
+            ]
+        },
+        {
+            "id": "car-loan-calc",
+            "name": "Auto Loan Payment Calculator",
+            "category": "Calculators",
+            "description": "Calculate monthly car payments with trade-in allowance, down payment, and sales tax.",
+            "keywords": [
+                "car loan calculator",
+                "auto finance",
+                "vehicle payment"
+            ]
+        },
+        {
+            "id": "crypto-profit-calc",
+            "name": "Crypto & Stock Profit Calculator",
+            "category": "Calculators",
+            "description": "Calculate net profit, return percentage, and exchange fees for trade entries and exits.",
+            "keywords": [
+                "crypto profit",
+                "stock return",
+                "trade calculator"
             ]
         },
         {
             "id": "json-formatter",
-            "name": "JSON Formatter",
-            "category": "developer",
-            "description": "Beautify and format your JSON code.",
+            "name": "JSON Formatter & Beautifier",
+            "category": "Developer",
+            "description": "Validate, prettify, and inspect nested JSON data with syntax highlights.",
             "keywords": [
                 "json formatter",
-                "json beautifier",
-                "format json"
+                "beautify json",
+                "json validator"
+            ]
+        },
+        {
+            "id": "json-minifier",
+            "name": "JSON Minifier & Compressor",
+            "category": "Developer",
+            "description": "Strip whitespace and comments to compress JSON payloads for production APIs.",
+            "keywords": [
+                "json minifier",
+                "compress json",
+                "json minify"
+            ]
+        },
+        {
+            "id": "base64-encoder",
+            "name": "Base64 Encoder",
+            "category": "Developer",
+            "description": "Encode plain text strings into RFC-standard Base64 ASCII representation.",
+            "keywords": [
+                "base64 encoder",
+                "encode base64",
+                "string to base64"
+            ]
+        },
+        {
+            "id": "base64-decoder",
+            "name": "Base64 Decoder",
+            "category": "Developer",
+            "description": "Decode Base64 encoded strings back to clean human-readable text.",
+            "keywords": [
+                "base64 decoder",
+                "decode base64",
+                "base64 to text"
+            ]
+        },
+        {
+            "id": "url-encoder",
+            "name": "URL Encoder",
+            "category": "Developer",
+            "description": "Encode query parameters and strings with standard percent-encoding (RFC 3986).",
+            "keywords": [
+                "url encode",
+                "percent encoding",
+                "encode uri"
+            ]
+        },
+        {
+            "id": "url-decoder",
+            "name": "URL Decoder",
+            "category": "Developer",
+            "description": "Decode percent-encoded URL query strings and URI components back to plain text.",
+            "keywords": [
+                "url decode",
+                "decode uri",
+                "url query decode"
+            ]
+        },
+        {
+            "id": "regex-tester",
+            "name": "Regex Tester & Matcher",
+            "category": "Developer",
+            "description": "Test regular expressions in real-time with capture group extraction and flag toggles.",
+            "keywords": [
+                "regex tester",
+                "regular expression",
+                "regex match"
+            ]
+        },
+        {
+            "id": "uuid-gen",
+            "name": "UUID / GUID v4 Generator",
+            "category": "Developer",
+            "description": "Generate cryptographically secure version 4 UUIDs in bulk with hyphen options.",
+            "keywords": [
+                "uuid generator",
+                "guid generator",
+                "random uuid"
+            ]
+        },
+        {
+            "id": "md5-gen",
+            "name": "MD5 Hash Generator",
+            "category": "Developer",
+            "description": "Compute standard 128-bit MD5 message digest hashes for verification.",
+            "keywords": [
+                "md5 generator",
+                "md5 hash",
+                "md5 checksum"
+            ]
+        },
+        {
+            "id": "sha256-gen",
+            "name": "SHA-256 Hash Generator",
+            "category": "Developer",
+            "description": "Generate SHA-256 cryptographic hashes client-side with Web Crypto API.",
+            "keywords": [
+                "sha256 generator",
+                "sha-256 hash",
+                "crypto hash"
+            ]
+        },
+        {
+            "id": "html-entity-encoder",
+            "name": "HTML Entities Encoder & Decoder",
+            "category": "Developer",
+            "description": "Convert special characters to HTML entities and decode escaped HTML back to raw code.",
+            "keywords": [
+                "html entities",
+                "escape html",
+                "html decode"
+            ]
+        },
+        {
+            "id": "jwt-decoder",
+            "name": "JWT Token Decoder & Inspector",
+            "category": "Developer",
+            "description": "Inspect JSON Web Token headers, payloads, and claim expiration without sending keys.",
+            "keywords": [
+                "jwt decoder",
+                "json web token",
+                "jwt decode"
+            ]
+        },
+        {
+            "id": "sql-formatter",
+            "name": "SQL Query Formatter & Beautifier",
+            "category": "Developer",
+            "description": "Format messy SQL queries with uppercase keywords and clean statement indentation.",
+            "keywords": [
+                "sql formatter",
+                "beautify sql",
+                "format sql"
+            ]
+        },
+        {
+            "id": "css-minifier",
+            "name": "CSS Minifier & Cleaner",
+            "category": "Developer",
+            "description": "Remove comments, line breaks, and unnecessary spaces to reduce stylesheet size.",
+            "keywords": [
+                "css minifier",
+                "compress css",
+                "minify stylesheets"
+            ]
+        },
+        {
+            "id": "js-minifier",
+            "name": "JavaScript Minifier",
+            "category": "Developer",
+            "description": "Strip comments, unused spacing, and line breaks from raw JavaScript code.",
+            "keywords": [
+                "js minifier",
+                "minify javascript",
+                "compress js"
+            ]
+        },
+        {
+            "id": "cron-parser",
+            "name": "Crontab Expression Explainer",
+            "category": "Developer",
+            "description": "Translate 5-part cron schedule expressions into plain English descriptions.",
+            "keywords": [
+                "cron parser",
+                "crontab expression",
+                "cron schedule"
+            ]
+        },
+        {
+            "id": "timestamp-converter",
+            "name": "Unix Timestamp Converter",
+            "category": "Developer",
+            "description": "Convert seconds/milliseconds epoch timestamps to ISO, UTC, and local date times.",
+            "keywords": [
+                "unix timestamp",
+                "epoch converter",
+                "timestamp to date"
+            ]
+        },
+        {
+            "id": "csv-to-json",
+            "name": "CSV to JSON Converter",
+            "category": "Developer",
+            "description": "Parse tabular comma-separated values into formatted JSON arrays and objects.",
+            "keywords": [
+                "csv to json",
+                "convert csv",
+                "table to json"
+            ]
+        },
+        {
+            "id": "json-to-csv",
+            "name": "JSON to CSV Converter",
+            "category": "Developer",
+            "description": "Convert JSON object arrays into clean comma-separated tabular spreadsheets.",
+            "keywords": [
+                "json to csv",
+                "convert json",
+                "json export csv"
+            ]
+        },
+        {
+            "id": "curl-to-fetch",
+            "name": "cURL to JavaScript Fetch Converter",
+            "category": "Developer",
+            "description": "Convert raw command line cURL commands into JavaScript fetch() API code.",
+            "keywords": [
+                "curl to fetch",
+                "curl to js",
+                "curl converter"
+            ]
+        },
+        {
+            "id": "word-counter",
+            "name": "Word & Character Counter",
+            "category": "Text & Writing",
+            "description": "Count words, characters, sentences, paragraphs, and estimated reading time.",
+            "keywords": [
+                "word counter",
+                "character counter",
+                "text length"
+            ]
+        },
+        {
+            "id": "char-counter",
+            "name": "Social Media Character Counter",
+            "category": "Text & Writing",
+            "description": "Live character counting with remaining allowances for X/Twitter, Instagram, and LinkedIn.",
+            "keywords": [
+                "twitter character counter",
+                "social limits",
+                "post length"
+            ]
+        },
+        {
+            "id": "upper-conv",
+            "name": "Uppercase Text Converter",
+            "category": "Text & Writing",
+            "description": "Convert any text into ALL CAPITAL LETTERS with one click.",
+            "keywords": [
+                "uppercase converter",
+                "all caps",
+                "capitalize text"
+            ]
+        },
+        {
+            "id": "lower-conv",
+            "name": "Lowercase Text Converter",
+            "category": "Text & Writing",
+            "description": "Transform paragraphs and mixed-case sentences into clean all-lowercase letters.",
+            "keywords": [
+                "lowercase converter",
+                "small letters",
+                "uncapitalize"
+            ]
+        },
+        {
+            "id": "title-conv",
+            "name": "Title Case & Headline Converter",
+            "category": "Text & Writing",
+            "description": "Capitalize major headline words according to AP, Chicago, and APA style standards.",
+            "keywords": [
+                "title case converter",
+                "headline capitalization",
+                "capitalize titles"
+            ]
+        },
+        {
+            "id": "sentence-conv",
+            "name": "Sentence Case Converter",
+            "category": "Text & Writing",
+            "description": "Capitalize the first letter of each sentence and normalize punctuation.",
+            "keywords": [
+                "sentence case",
+                "capitalize sentences",
+                "format text"
+            ]
+        },
+        {
+            "id": "slug-gen",
+            "name": "URL Slug & Permalink Generator",
+            "category": "Text & Writing",
+            "description": "Convert article titles into SEO-friendly, clean, hyphen-separated URL slugs.",
+            "keywords": [
+                "slug generator",
+                "url permalink",
+                "seo slug"
+            ]
+        },
+        {
+            "id": "lorem-ipsum",
+            "name": "Lorem Ipsum Generator",
+            "category": "Text & Writing",
+            "description": "Generate customizable paragraphs, sentences, and words of standard placeholder text.",
+            "keywords": [
+                "lorem ipsum generator",
+                "dummy text",
+                "placeholder copy"
+            ]
+        },
+        {
+            "id": "readability-check",
+            "name": "Readability Score Checker",
+            "category": "Text & Writing",
+            "description": "Calculate Flesch Reading Ease and Flesch-Kincaid Grade Level for any paragraph.",
+            "keywords": [
+                "readability checker",
+                "flesch kincaid",
+                "reading grade"
+            ]
+        },
+        {
+            "id": "text-to-speech",
+            "name": "Browser Text-to-Speech Player",
+            "category": "Text & Writing",
+            "description": "Listen to your text read aloud with native browser speech synthesis voices and speed controls.",
+            "keywords": [
+                "text to speech",
+                "read aloud",
+                "browser tts"
+            ]
+        },
+        {
+            "id": "md-to-html",
+            "name": "Markdown to HTML Converter",
+            "category": "Text & Writing",
+            "description": "Convert GitHub-flavored Markdown text into sanitized HTML code with live preview.",
+            "keywords": [
+                "markdown to html",
+                "md previewer",
+                "convert markdown"
+            ]
+        },
+        {
+            "id": "html-to-md",
+            "name": "HTML to Markdown Converter",
+            "category": "Text & Writing",
+            "description": "Strip HTML markup tags and convert rich web text into clean Markdown.",
+            "keywords": [
+                "html to markdown",
+                "convert html to md",
+                "clean markdown"
+            ]
+        },
+        {
+            "id": "whitespace-cleaner",
+            "name": "Whitespace & Line Break Cleaner",
+            "category": "Text & Writing",
+            "description": "Remove duplicate spaces, trailing whitespace, and blank empty lines from messy text.",
+            "keywords": [
+                "remove whitespace",
+                "clean lines",
+                "strip spaces"
+            ]
+        },
+        {
+            "id": "duplicate-remover",
+            "name": "Duplicate Lines Remover",
+            "category": "Text & Writing",
+            "description": "Deduplicate lists, lines, and arrays with case-sensitive and sort options.",
+            "keywords": [
+                "remove duplicate lines",
+                "deduplicate list",
+                "unique lines"
+            ]
+        },
+        {
+            "id": "text-diff",
+            "name": "Text Difference & Diff Checker",
+            "category": "Text & Writing",
+            "description": "Compare two text snippets side-by-side to highlight added, removed, and changed words.",
+            "keywords": [
+                "text diff",
+                "diff checker",
+                "compare text"
+            ]
+        },
+        {
+            "id": "morse-code",
+            "name": "Morse Code Translator",
+            "category": "Text & Writing",
+            "description": "Translate English text to Morse code dots and dashes with audio beep playback.",
+            "keywords": [
+                "morse code translator",
+                "morse to text",
+                "morse audio"
+            ]
+        },
+        {
+            "id": "binary-text",
+            "name": "Binary to Text Converter",
+            "category": "Text & Writing",
+            "description": "Convert binary 0s and 1s into ASCII characters and translate text back to binary code.",
+            "keywords": [
+                "binary to text",
+                "text to binary",
+                "binary translator"
+            ]
+        },
+        {
+            "id": "hex-text",
+            "name": "Hexadecimal to Text Converter",
+            "category": "Text & Writing",
+            "description": "Translate hex byte values into plain UTF-8 text and encode text into hexadecimal.",
+            "keywords": [
+                "hex to text",
+                "text to hex",
+                "hexadecimal converter"
+            ]
+        },
+        {
+            "id": "reverse-text",
+            "name": "Reverse Text & Backwards Flipper",
+            "category": "Text & Writing",
+            "description": "Reverse letters, flip words backwards, and create upside-down mirrored text.",
+            "keywords": [
+                "reverse text",
+                "backwards text",
+                "flip text"
+            ]
+        },
+        {
+            "id": "word-scrambler",
+            "name": "Word Unscrambler & Anagram Solver",
+            "category": "Text & Writing",
+            "description": "Find all anagram permutations and letter combinations for Scrabble and puzzles.",
+            "keywords": [
+                "word unscrambler",
+                "anagram solver",
+                "unscramble letters"
+            ]
+        },
+        {
+            "id": "color-picker",
+            "name": "HEX, RGB & HSL Color Picker",
+            "category": "Design & Media",
+            "description": "Visual color picker with instant HEX, RGB, HSL, and HSV value conversions.",
+            "keywords": [
+                "color picker",
+                "hex to rgb",
+                "hsl converter"
+            ]
+        },
+        {
+            "id": "css-gradient",
+            "name": "CSS Gradient Generator",
+            "category": "Design & Media",
+            "description": "Create linear and radial color gradients with visual angle controls and copy CSS.",
+            "keywords": [
+                "css gradient",
+                "gradient generator",
+                "linear gradient"
+            ]
+        },
+        {
+            "id": "aspect-calc",
+            "name": "Aspect Ratio Calculator",
+            "category": "Design & Media",
+            "description": "Calculate scaled dimensions while preserving 16:9, 4:3, 1:1, or custom aspect ratios.",
+            "keywords": [
+                "aspect ratio calculator",
+                "image resize ratio",
+                "screen aspect"
+            ]
+        },
+        {
+            "id": "ascii-gen",
+            "name": "ASCII Text Banner Generator",
+            "category": "Design & Media",
+            "description": "Generate retro block-letter ASCII text art banners for terminal and code comments.",
+            "keywords": [
+                "ascii art generator",
+                "text banner",
+                "ascii font"
+            ]
+        },
+        {
+            "id": "glitch-text",
+            "name": "Glitch & Zalgo Text Generator",
+            "category": "Design & Media",
+            "description": "Generate eerie corrupted Zalgo text with customizable distortion and creepiness levels.",
+            "keywords": [
+                "glitch text",
+                "zalgo generator",
+                "creepy font"
+            ]
+        },
+        {
+            "id": "fancy-font",
+            "name": "Fancy Unicode Font Generator",
+            "category": "Design & Media",
+            "description": "Convert plain bios and captions into 20+ copy-paste aesthetic Unicode fonts.",
+            "keywords": [
+                "fancy font generator",
+                "unicode fonts",
+                "instagram font"
+            ]
+        },
+        {
+            "id": "qr-gen",
+            "name": "QR Code Generator",
+            "category": "Design & Media",
+            "description": "Generate scannable QR codes for URLs, WiFi credentials, and contact cards client-side.",
+            "keywords": [
+                "qr code generator",
+                "free qr maker",
+                "custom qr"
+            ]
+        },
+        {
+            "id": "barcode-gen",
+            "name": "Barcode Generator",
+            "category": "Design & Media",
+            "description": "Generate scannable Code-128 and EAN-13 barcodes with printable high-resolution export.",
+            "keywords": [
+                "barcode generator",
+                "code 128",
+                "barcode maker"
+            ]
+        },
+        {
+            "id": "img-resize",
+            "name": "Image Resizer (Browser)",
+            "category": "Design & Media",
+            "description": "Resize photos and graphics locally using HTML5 canvas without uploading to servers.",
+            "keywords": [
+                "image resizer",
+                "resize photo online",
+                "client side resize"
+            ]
+        },
+        {
+            "id": "img-compress",
+            "name": "Image Compressor",
+            "category": "Design & Media",
+            "description": "Compress JPEG and WebP photos to reduce file size with real-time quality slider.",
+            "keywords": [
+                "compress image",
+                "shrink photo",
+                "reduce image size"
+            ]
+        },
+        {
+            "id": "png-to-webp",
+            "name": "PNG to WebP Converter",
+            "category": "Design & Media",
+            "description": "Convert heavy PNG graphics to ultra-light WebP format on-device in milliseconds.",
+            "keywords": [
+                "png to webp",
+                "convert to webp",
+                "image format converter"
+            ]
+        },
+        {
+            "id": "svg-to-png",
+            "name": "SVG to PNG Converter",
+            "category": "Design & Media",
+            "description": "Rasterize scalable vector SVG files into crisp high-resolution PNG images.",
+            "keywords": [
+                "svg to png",
+                "convert svg",
+                "vector to png"
+            ]
+        },
+        {
+            "id": "favicon-gen",
+            "name": "Favicon Generator",
+            "category": "Design & Media",
+            "description": "Generate complete favicon bundles (16x16, 32x32, 48x48) from any square PNG.",
+            "keywords": [
+                "favicon generator",
+                "create favicon",
+                "ico maker"
+            ]
+        },
+        {
+            "id": "css-box-shadow",
+            "name": "CSS Box Shadow Generator",
+            "category": "Design & Media",
+            "description": "Design multi-layer smooth CSS shadows with blur, spread, and inset controls.",
+            "keywords": [
+                "box shadow generator",
+                "css shadow",
+                "smooth shadow"
+            ]
+        },
+        {
+            "id": "css-glassmorphism",
+            "name": "Glassmorphism CSS Generator",
+            "category": "Design & Media",
+            "description": "Generate frosted glass UI styles with backdrop blur, opacity, and border highlights.",
+            "keywords": [
+                "glassmorphism css",
+                "frosted glass effect",
+                "backdrop blur"
+            ]
+        },
+        {
+            "id": "css-border-radius",
+            "name": "Fancy Border Radius Generator",
+            "category": "Design & Media",
+            "description": "Create organic, morphing organic blob shapes with 8-value CSS border-radius.",
+            "keywords": [
+                "border radius generator",
+                "blob maker",
+                "organic shapes"
+            ]
+        },
+        {
+            "id": "color-palette",
+            "name": "Color Palette Generator",
+            "category": "Design & Media",
+            "description": "Generate complementary, analogous, and triadic color harmonies with hex exports.",
+            "keywords": [
+                "color palette generator",
+                "color harmony",
+                "palette maker"
+            ]
+        },
+        {
+            "id": "px-to-rem",
+            "name": "Pixels to REM / EM Converter",
+            "category": "Design & Media",
+            "description": "Convert pixel values to accessible REM and EM units based on standard 16px base font.",
+            "keywords": [
+                "px to rem",
+                "rem converter",
+                "pixel to em"
+            ]
+        },
+        {
+            "id": "screen-ruler",
+            "name": "Screen Pixel Ruler",
+            "category": "Design & Media",
+            "description": "Interactive on-screen measurement tool to measure pixels, dimensions, and spacing.",
+            "keywords": [
+                "screen ruler",
+                "pixel ruler",
+                "measure pixels"
+            ]
+        },
+        {
+            "id": "color-contrast",
+            "name": "Color Contrast Checker (WCAG)",
+            "category": "Design & Media",
+            "description": "Test foreground and background color combinations against WCAG 2.1 AA and AAA rules.",
+            "keywords": [
+                "color contrast",
+                "wcag checker",
+                "accessibility contrast"
+            ]
+        },
+        {
+            "id": "password-gen",
+            "name": "Secure Password Generator",
+            "category": "Productivity",
+            "description": "Generate ultra-secure, cryptographically random passwords with custom rules.",
+            "keywords": [
+                "password generator",
+                "strong password",
+                "random pass"
+            ]
+        },
+        {
+            "id": "password-strength",
+            "name": "Password Strength Checker",
+            "category": "Productivity",
+            "description": "Audit password entropy, crack time estimations, and common dictionary vulnerabilities.",
+            "keywords": [
+                "password strength",
+                "entropy checker",
+                "test password"
+            ]
+        },
+        {
+            "id": "time-zone",
+            "name": "World Clock & Time Zone Planner",
+            "category": "Productivity",
+            "description": "Compare business hours and coordinate international meetings across time zones.",
+            "keywords": [
+                "time zone converter",
+                "world clock",
+                "meeting planner"
+            ]
+        },
+        {
+            "id": "pomodoro-timer",
+            "name": "Pomodoro Focus Timer",
+            "category": "Productivity",
+            "description": "Customizable 25/5 interval timer with browser sound chimes and session counters.",
+            "keywords": [
+                "pomodoro timer",
+                "focus timer",
+                "productivity timer"
+            ]
+        },
+        {
+            "id": "stopwatch",
+            "name": "Precision Stopwatch",
+            "category": "Productivity",
+            "description": "Millisecond-accurate digital stopwatch with lap recording and split time logs.",
+            "keywords": [
+                "online stopwatch",
+                "lap timer",
+                "digital stopwatch"
+            ]
+        },
+        {
+            "id": "countdown-timer",
+            "name": "Event Countdown Clock",
+            "category": "Productivity",
+            "description": "Create a live countdown timer to any upcoming holiday, event, or release date.",
+            "keywords": [
+                "countdown timer",
+                "days until",
+                "event countdown"
+            ]
+        },
+        {
+            "id": "wheel-picker",
+            "name": "Random Choice & Name Picker",
+            "category": "Productivity",
+            "description": "Spin the wheel or pick a random winner from any custom list of options.",
+            "keywords": [
+                "random picker",
+                "wheel of names",
+                "spin the wheel"
+            ]
+        },
+        {
+            "id": "coin-flipper",
+            "name": "Coin Flipper & Dice Roller",
+            "category": "Productivity",
+            "description": "Flip fair virtual coins or roll multi-sided dice (D6, D20) for decisions.",
+            "keywords": [
+                "coin flipper",
+                "flip a coin",
+                "roll a dice"
+            ]
+        },
+        {
+            "id": "unit-length",
+            "name": "Length & Distance Converter",
+            "category": "Productivity",
+            "description": "Convert meters, feet, inches, miles, yards, and kilometers instantly.",
+            "keywords": [
+                "length converter",
+                "meters to feet",
+                "inches to cm"
+            ]
+        },
+        {
+            "id": "unit-weight",
+            "name": "Weight & Mass Converter",
+            "category": "Productivity",
+            "description": "Convert pounds (lbs), kilograms (kg), ounces (oz), grams, and stones.",
+            "keywords": [
+                "weight converter",
+                "kg to lbs",
+                "pounds to grams"
+            ]
+        },
+        {
+            "id": "unit-temp",
+            "name": "Temperature Converter",
+            "category": "Productivity",
+            "description": "Convert between Fahrenheit, Celsius, and Kelvin with standard formulas.",
+            "keywords": [
+                "temperature converter",
+                "celsius to fahrenheit",
+                "f to c"
+            ]
+        },
+        {
+            "id": "unit-speed",
+            "name": "Speed & Velocity Converter",
+            "category": "Productivity",
+            "description": "Convert miles per hour (mph), km/h, knots, and meters per second.",
+            "keywords": [
+                "speed converter",
+                "mph to kph",
+                "knots converter"
+            ]
+        },
+        {
+            "id": "unit-data",
+            "name": "Data Storage Size Converter",
+            "category": "Productivity",
+            "description": "Convert Bytes, Kilobytes, Megabytes, Gigabytes, and Terabytes (base 10 & 2).",
+            "keywords": [
+                "data converter",
+                "mb to gb",
+                "bytes converter"
+            ]
+        },
+        {
+            "id": "speed-test",
+            "name": "Browser Latency & Ping Tester",
+            "category": "Productivity",
+            "description": "Measure your real-time roundtrip network latency and jitter across global CDN endpoints.",
+            "keywords": [
+                "ping test",
+                "network latency",
+                "speed test"
+            ]
+        },
+        {
+            "id": "user-agent",
+            "name": "User-Agent & Device Inspector",
+            "category": "Productivity",
+            "description": "Detect your browser engine, OS platform, screen resolution, and hardware concurrency.",
+            "keywords": [
+                "user agent lookup",
+                "browser info",
+                "device specs"
+            ]
+        },
+        {
+            "id": "ip-lookup",
+            "name": "IP Address & Headers Inspector",
+            "category": "Productivity",
+            "description": "View connection protocol, HTTP headers, viewport dimensions, and color depth.",
+            "keywords": [
+                "what is my ip",
+                "browser headers",
+                "screen resolution"
+            ]
+        },
+        {
+            "id": "base-converter",
+            "name": "Number Base Converter",
+            "category": "Productivity",
+            "description": "Convert numbers between Decimal, Binary, Hexadecimal, and Octal formats.",
+            "keywords": [
+                "base converter",
+                "dec to hex",
+                "binary to decimal"
+            ]
+        },
+        {
+            "id": "roman-numerals",
+            "name": "Roman Numerals Converter",
+            "category": "Productivity",
+            "description": "Convert standard Arabic numbers (1-3999) to Roman numerals and back.",
+            "keywords": [
+                "roman numerals converter",
+                "roman to number",
+                "arabic to roman"
+            ]
+        },
+        {
+            "id": "fraction-decimal",
+            "name": "Fraction to Decimal Converter",
+            "category": "Productivity",
+            "description": "Convert complex fractions to repeating decimals and simplify mixed numbers.",
+            "keywords": [
+                "fraction to decimal",
+                "simplify fraction",
+                "decimal to fraction"
+            ]
+        },
+        {
+            "id": "list-randomizer",
+            "name": "List Shuffler & Randomizer",
+            "category": "Productivity",
+            "description": "Shuffle any list of items using the Fisher-Yates cryptographically fair random algorithm.",
+            "keywords": [
+                "list randomizer",
+                "shuffle list",
+                "random order"
             ]
         }
     ]
