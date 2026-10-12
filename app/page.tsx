@@ -4,12 +4,12 @@ import ToolLayout from '@/components/ui/Layout';
 
 export default function Home() {
     return (
-        <ToolLayout title="Hydra Tools" description="Professional utility collection.">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <ToolLayout title="Hydra Tools" description="A collection of professional, privacy-first utility tools that run entirely in your browser.">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {manifest.tools.map((tool) => (
-                    <Link href={`/tools/${tool.id}`} key={tool.id} className="group p-6 bg-neutral-900 border border-neutral-800 rounded-xl hover:border-blue-500 transition-all duration-300 hover:shadow-[0_0_20px_-5px_rgba(59,130,246,0.3)]">
-                        <h3 className="font-bold text-lg mb-1 group-hover:text-blue-400 transition-colors">{tool.name}</h3>
-                        <p className="text-sm text-neutral-400">{tool.description}</p>
+                    <Link href={`/tools/${tool.id}`} key={tool.id} className="block group p-5 bg-white border border-neutral-200 rounded-xl hover:border-blue-500 transition shadow-sm hover:shadow-md">
+                        <h3 className="font-semibold text-neutral-950 mb-1 group-hover:text-blue-600 transition-colors">{tool.name}</h3>
+                        <p className="text-xs text-neutral-500 line-clamp-2">{tool.description}</p>
                     </Link>
                 ))}
             </div>
