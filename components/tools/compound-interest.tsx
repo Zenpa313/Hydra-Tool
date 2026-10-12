@@ -1,6 +1,4 @@
 "use client";
-import { useState } from "react";
-
 export default function Compoundinterest() {
-    return <div className="text-gray-500">Logic for Compound Interest Calculator implementation in progress.</div>;
+    return <div className="p-4">Logic for compound-interest under development.</div>;
 }
